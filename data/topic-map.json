@@ -1,0 +1,78 @@
+{
+  "updatedAt": "2026-05-25T13:37:37.949Z",
+  "clusters": [
+    {
+      "id": "evaluation",
+      "label": "Evaluation and benchmarks",
+      "sourceIds": [
+        "S0003"
+      ],
+      "hypothesisIds": [
+        "H0001",
+        "Hfd72d66f"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "label": "Monitoring and telemetry",
+      "sourceIds": [],
+      "hypothesisIds": [
+        "H0001",
+        "Hfd72d66f"
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security and agent risk",
+      "sourceIds": [
+        "S0001",
+        "S0002",
+        "S0003",
+        "S0004",
+        "S0005",
+        "S0006",
+        "S0008",
+        "S0011",
+        "S0013"
+      ],
+      "hypothesisIds": [
+        "Hfd72d66f"
+      ]
+    },
+    {
+      "id": "governance",
+      "label": "Governance evidence",
+      "sourceIds": [
+        "S0001",
+        "S0005",
+        "S0007",
+        "S0008",
+        "S0009",
+        "S0010",
+        "S0012",
+        "S0015"
+      ],
+      "hypothesisIds": [
+        "H0001",
+        "Hfba5ea0e"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "evaluation",
+      "to": "monitoring",
+      "relationship": "shares trust evidence questions with"
+    },
+    {
+      "from": "evaluation",
+      "to": "security",
+      "relationship": "shares trust evidence questions with"
+    },
+    {
+      "from": "evaluation",
+      "to": "governance",
+      "relationship": "shares trust evidence questions with"
+    }
+  ]
+}

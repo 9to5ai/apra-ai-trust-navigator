@@ -1,0 +1,268 @@
+[
+  {
+    "id": "S0001",
+    "title": "Trustworthy AI Posture (TAIP): A Framework for Continuous AI Assurance of Agentic Systems at Horizontal and Vertical scale",
+    "authors": [
+      "Guy Lupo",
+      "Bao Quoc Vo",
+      "Natania Locke"
+    ],
+    "venue": "arXiv",
+    "publishedAt": "2026-02-15",
+    "url": "http://arxiv.org/abs/2603.03340v1",
+    "sourceType": "preprint",
+    "trustRating": 0.72,
+    "relevanceScore": 0.8200000000000001,
+    "summary": "The emergence of autonomous, high-velocity Agentic AI systems is creating an internal assurance scalability crisis. Point-in-time, document-based audits cannot keep pace with non deterministic behaviour and distributed deployments of agents across rapidly evolving environments.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0002",
+    "title": "From privacy to trust in the agentic era: a taxonomy of challenges in trustworthy federated learning through the lens of trust report 2.0",
+    "authors": [
+      "Nuria Rodríguez-Barroso",
+      "Mario García-Márquez",
+      "M. Victoria Luzón",
+      "Francisco Herrera"
+    ],
+    "venue": "Information Fusion",
+    "publishedAt": "2026-02-14",
+    "url": "https://doi.org/10.1016/j.inffus.2026.104236",
+    "doi": "10.1016/j.inffus.2026.104236",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "• Trustworthy AI is a prerequisite for deploying FL in high-risk, multi-stakeholder domains. • Privacy-preserving guarantees alone are insufficient to sustain trust in agentic and dynamic FL systems.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0003",
+    "title": "Evaluating and Regulating Agentic AI: A Study of Benchmarks, Metrics, and Regulation",
+    "authors": [
+      "Azib Farooq",
+      "Shaina Raza",
+      "Nazmul Karim",
+      "Hasan Iqbal",
+      "Athanasios V. Vasilakos",
+      "Christos Emmanouilidis"
+    ],
+    "publishedAt": "2025-11-11",
+    "url": "https://doi.org/10.36227/techrxiv.176186841.18883348/v3",
+    "doi": "10.36227/techrxiv.176186841.18883348/v3",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Agentic AI represents a new generation of Artificial Intelligence (AI) systems capable of perceiving, reasoning, planning, and acting toward achieving goals with a degree of autonomy. Unlike traditional AI models that merely generate outputs, these systems maintain memory, interact with their environment, and adapt over time.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0004",
+    "title": "Unified Security Orchestration Framework for Protecting AI/ML Systems Against Input-Based and Model Supply Chain Attacks",
+    "authors": [
+      "Senthil Muthu"
+    ],
+    "venue": "AI and Machine Learning Advances",
+    "publishedAt": "2026-05-14",
+    "url": "https://doi.org/10.64220/amla.v2i2.003",
+    "doi": "10.64220/amla.v2i2.003",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "The quick implementation of Large Language Models (LLMs) in companies and vital systems has exposed new types of security concerns that are not solvable by current cybersecurity tools. These tools are now vulnerable to adversarial attacks like prompt injection, indirect manipulation of input, multi-turn exploits and compromises of the supply chains of models.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0005",
+    "title": "Embedding governance in AI security culture: from trust calibration to accountable decisions",
+    "authors": [
+      "Justyna Żywiołek",
+      "Radosław Wolniak",
+      "W. Grebski"
+    ],
+    "venue": "International Journal of Information Security",
+    "publishedAt": "2026-05-16",
+    "url": "https://doi.org/10.1007/s10207-026-01265-7",
+    "doi": "10.1007/s10207-026-01265-7",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "This study develops and validates a multidimensional framework of security culture tailored to AI-enabled decision-making in public administration and higher education. Drawing on a mixed-methods design combining qualitative elicitation, psychometric validation, structural equation modeling, and experimental testing, the research identifies five interrelated cultural dimensions: role clarity and accountability in human–AI collaboration, psychological safety to contest AI outputs, awareness of bias and corrective ro",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0006",
+    "title": "Survey on LLM Safety: Attacks, Defenses, Alignment, Metrics, and Guardrails",
+    "authors": [
+      "Pratik Jalan",
+      "Vadivel Abishethvarman",
+      "Bhavik Chandna",
+      "Usman Naseem"
+    ],
+    "venue": "Machine Learning",
+    "publishedAt": "2026-05-20",
+    "url": "https://doi.org/10.1007/s10994-026-07060-8",
+    "doi": "10.1007/s10994-026-07060-8",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Abstract Large Language Models (LLM) have demonstrated remarkable capabilities across various applications, but their deployment raises critical safety concerns as potential misuse poses significant societal risks. This survey reviews the end-to-end security and safety pipeline of LLMs, focusing on the interaction between users and model responses.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0007",
+    "title": "Governing Generative AI in Healthcare: A Normative Conceptual Framework for Epistemic Authority, Trust, and the Architecture of Responsibility",
+    "authors": [
+      "Fatma Eren Akgün",
+      "M Akgün"
+    ],
+    "venue": "Healthcare",
+    "publishedAt": "2026-04-20",
+    "url": "https://doi.org/10.3390/healthcare14081098",
+    "doi": "10.3390/healthcare14081098",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "BACKGROUND/OBJECTIVES: Large language models (LLMs) such as ChatGPT are rapidly being integrated into healthcare for tasks ranging from clinical documentation to diagnostic support. Current ethical discussions focus predominantly on bias, privacy, and accuracy, leaving three critical governance questions unresolved: What kind of knowledge does an LLM output represent in clinical reasoning?",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0008",
+    "title": "Security and Privacy of Large Language Models: Threat Taxonomy, Ethical Implications, and Governance",
+    "authors": [
+      "Marko Pribisalić",
+      "Sanda Martinčić-Ipšić"
+    ],
+    "venue": "AI",
+    "publishedAt": "2026-04-24",
+    "url": "https://doi.org/10.3390/ai7050152",
+    "doi": "10.3390/ai7050152",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Large Language Models (LLMs) are increasingly deployed across professional and societal domains, introducing security, privacy, and governance challenges beyond traditional software vulnerabilities. Despite extensive research on individual risk categories, a unified lifecycle-oriented perspective connecting architectural properties, adversarial threats, and governance implications remains limited.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0009",
+    "title": "The Audit Gap: Why Existing Assurance Frameworks Fail for AI Systems and What Comes Next",
+    "authors": [
+      "Ali Sadhik Shaik"
+    ],
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "publishedAt": "2026-05-19",
+    "url": "https://doi.org/10.5281/zenodo.20289964",
+    "doi": "10.5281/zenodo.20289964",
+    "sourceType": "preprint",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "The global assurance and audit industry - generating over $250 billion annually and built around frameworks like SOC 2, ISO 27001, ISO 42001, and financial auditing standards - was designed for deterministic systems with predictable, reproducible outputs. Artificial intelligence systems are fundamentally different: they are probabilistic, their behavior shifts with data distribution changes, their decision logic is often opaque even to their developers, and their performance degrades over time through mechanisms (m",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0010",
+    "title": "When trust becomes symbolic: standards and the governance of AI",
+    "authors": [
+      "Dong-hyu Kim"
+    ],
+    "venue": "Information Technology and People",
+    "publishedAt": "2026-04-29",
+    "url": "https://doi.org/10.1108/itp-01-2026-0128",
+    "doi": "10.1108/itp-01-2026-0128",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Purpose This paper aims to reconceptualise standardisation as a generative governance arrangement that organises expectations, trust and decision-making under persistent uncertainty. Drawing on Niklas Luhmann's systems theory and extending Kim's (2025a) concept of standards as thematic identities and expectational structures, it seeks to explain how standards operate beyond technical coordination.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0011",
+    "title": "TAXAL framework: Triadic fusion of cognitive, functional, and causal dimensions for explainability in agentic LLMs",
+    "authors": [
+      "David Herrera-Poyatos",
+      "Carlos Peláez-González",
+      "Cristina Zuheros",
+      "Virilo Tejedor",
+      "Rosana Montes",
+      "Francisco Herrera"
+    ],
+    "venue": "Information Fusion",
+    "publishedAt": "2026-04-17",
+    "url": "https://doi.org/10.1016/j.inffus.2026.104389",
+    "doi": "10.1016/j.inffus.2026.104389",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Large Language Models (LLMs) are increasingly deployed in high-risk domains where opacity, bias, and instability undermine trust and accountability. Traditional explainability methods, often centered on surface outputs, are insufficient for capturing the reasoning pathways, planning logic, and broader sociotechnical implications of agentic LLMs.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0012",
+    "title": "Auditing clinical AI in oncology: Strengthening assurance frameworks and nursing leadership in the Asia–Pacific context",
+    "authors": [
+      "Karthik Adapa",
+      "Mounika Metta",
+      "Suguna Kotte",
+      "Anusmitha Sathuluri",
+      "Vibhav Mithal",
+      "Resham Sethi",
+      "Grace Achungura",
+      "Lukasz Mazur"
+    ],
+    "venue": "Asia-Pacific Journal of Oncology Nursing",
+    "publishedAt": "2026-05-12",
+    "url": "https://doi.org/10.1016/j.apjon.2026.100972",
+    "doi": "10.1016/j.apjon.2026.100972",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Artificial intelligence (AI) is increasingly being used in cancer care across the Asia-Pacific region.However, AI tools that work well in one country or hospital can fail in another because of differences in patients, equipment, language, and clinical practice.This commentary explains why three different checks-validation (does it work for our patients?),verification (is it built correctly?), and auditing (is it safe and fair over time?)-are all needed to ensure AI is used safely.We argue that oncology nurses, who ",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0013",
+    "title": "Deception and Communication in Autonomous Multi-Agent Systems: An Experimental Study with Among Us",
+    "authors": [
+      "Maria Milkowski",
+      "Tim Weninger"
+    ],
+    "publishedAt": "2026-05-24",
+    "url": "https://doi.org/10.65109/frxl8789",
+    "doi": "10.65109/frxl8789",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "As large language models are deployed as autonomous agents, their capacity for strategic deception raises core questions for coordination, reliability, and safety in multi-goal, multi-agent systems. We study deception and communication in LLM agents through the social deduction game Among Us, a cooperative-competitive environment.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0014",
+    "title": "Data curation in academic libraries: navigating the AI labyrinth through the FATE principles",
+    "authors": [
+      "N. Sousa"
+    ],
+    "venue": "Information Research an international electronic journal",
+    "publishedAt": "2026-05-15",
+    "url": "https://doi.org/10.47989/ir31260449",
+    "doi": "10.47989/ir31260449",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Introduction. This study examines how academic libraries address the ethical and operational challenges of data curation in an era shaped by artificial intelligence (AI).",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  },
+  {
+    "id": "S0015",
+    "title": "Biotechnology and Gene Editing: Genomic Engineering, Biological Systems, and Precision Therapeutic Platforms",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "publishedAt": "2026-05-17",
+    "url": "https://doi.org/10.62311/nesx/rb5m-30052026",
+    "doi": "10.62311/nesx/rb5m-30052026",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.4,
+    "summary": "Abstract This manuscript develops a doctoral-level account of biotechnology and gene editing as a convergence field linking genomic engineering, biological systems science and precision therapeutic platforms. It frames gene editing not as a discrete laboratory technique but as a research-governance architecture that integrates molecular design, statistical inference, machine learning, omics data engineering, translational validation, manufacturing quality and responsible deployment.",
+    "discoveredAt": "2026-05-25T13:37:25.859Z"
+  }
+]
