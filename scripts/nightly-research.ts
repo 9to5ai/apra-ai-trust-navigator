@@ -527,9 +527,27 @@ async function commitAndPush(date: string) {
     await execFile("git", ["rev-parse", "--is-inside-work-tree"], { cwd: root });
     await execFile("git", ["add", "data"], { cwd: root });
     await execFile("git", ["commit", "-m", `Add AI trust dossier ${date}`], { cwd: root });
-    await execFile("git", ["push"], { cwd: root });
+    await publishToHost(date);
   } catch (error) {
     await writeLog(date, `Git publish skipped or failed: ${String(error)}\n`);
+  }
+}
+
+async function publishToHost(date: string) {
+  try {
+    await execFile("git", ["remote", "get-url", "origin"], { cwd: root });
+    await execFile("git", ["push"], { cwd: root });
+    await writeLog(date, "Published by git push.\n");
+    return;
+  } catch {
+    await writeLog(date, "No git remote found; deploying with Vercel CLI.\n");
+  }
+
+  try {
+    await execFile("vercel", ["--prod", "--yes"], { cwd: root });
+    await writeLog(date, "Published by Vercel CLI.\n");
+  } catch (error) {
+    await writeLog(date, `Vercel publish failed: ${String(error)}\n`);
   }
 }
 
