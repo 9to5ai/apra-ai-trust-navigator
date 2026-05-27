@@ -1,5 +1,38 @@
 [
   {
+    "id": "S0016",
+    "title": "A Systematic Lifecycle-Referenced Capability Mapping of MLOps Platforms for Energy Forecasting",
+    "authors": [
+      "Xun Zhao",
+      "Zheng Grace Ma",
+      "Bo Nørregaard Jôrgensen"
+    ],
+    "venue": "Information",
+    "publishedAt": "2026-03-28",
+    "url": "https://doi.org/10.3390/info17040328",
+    "doi": "10.3390/info17040328",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Accurate energy forecasting is essential for maintaining power system reliability, integrating renewable generation, and ensuring market stability. Although machine learning has improved forecasting accuracy, its operational deployment depends on Machine Learning Operations (MLOps) platforms that automate and scale the entire lifecycle of energy data pipelines.",
+    "discoveredAt": "2026-05-27T07:57:52.022Z"
+  },
+  {
+    "id": "S0017",
+    "title": "AI-Driven Service Intelligence Models for Operational Excellence and Customer Experience Optimization in Service Economies",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "publishedAt": "2026-02-28",
+    "url": "https://doi.org/10.62311/nesx/rb-978-81-999213-9-9",
+    "doi": "10.62311/nesx/rb-978-81-999213-9-9",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Abstract: This manuscript develops a unified academic framework for understanding how artificial intelligence can be integrated into service systems to improve operational excellence and customer experience without collapsing explanation into automation or governance into afterthought. It treats service intelligence as a structured field of inquiry at the intersection of operations, statistics, machine learning, data engineering, and institutional design.",
+    "discoveredAt": "2026-05-27T07:57:52.022Z"
+  },
+  {
     "id": "S0001",
     "title": "Trustworthy AI Posture (TAIP): A Framework for Continuous AI Assurance of Agentic Systems at Horizontal and Vertical scale",
     "authors": [
