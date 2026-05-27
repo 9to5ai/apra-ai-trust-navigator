@@ -1,5 +1,25 @@
 [
   {
+    "id": "S0018",
+    "title": "GateLens: A reasoning-enhanced LLM agent for automotive software release analytics",
+    "authors": [
+      "Arsham Gholamzadeh Khoee",
+      "Shuai Wang",
+      "Robert Feldt",
+      "Dhasarathy Parthasarathy",
+      "Yinan Yu"
+    ],
+    "venue": "Journal of Systems and Software",
+    "publishedAt": "2026-05-23",
+    "url": "https://doi.org/10.1016/j.jss.2026.112961",
+    "doi": "10.1016/j.jss.2026.112961",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Ensuring reliable data-driven decisions is crucial in domains where analytical accuracy directly impacts safety, compliance, or operational outcomes. Decision support in such domains relies on large tabular datasets, where manual analysis is slow, costly, and error-prone.",
+    "discoveredAt": "2026-05-27T15:15:01.220Z"
+  },
+  {
     "id": "S0016",
     "title": "A Systematic Lifecycle-Referenced Capability Mapping of MLOps Platforms for Energy Forecasting",
     "authors": [
