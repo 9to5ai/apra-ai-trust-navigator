@@ -3,10 +3,10 @@
     "id": "H0001",
     "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
     "status": "strengthened",
-    "confidence": 0.68,
+    "confidence": 0.7100000000000001,
     "priority": 0.86,
     "createdAt": "2026-05-25T13:37:25.859Z",
-    "updatedAt": "2026-05-27T15:15:13.363Z",
+    "updatedAt": "2026-05-28T15:15:09.037Z",
     "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
   },
   {
@@ -15,8 +15,8 @@
     "status": "new",
     "confidence": 0.42,
     "priority": 0.62,
-    "createdAt": "2026-05-27T15:15:13.298Z",
-    "updatedAt": "2026-05-27T15:15:13.298Z",
+    "createdAt": "2026-05-28T15:15:08.988Z",
+    "updatedAt": "2026-05-28T15:15:08.988Z",
     "parentId": "H0001"
   },
   {
@@ -25,8 +25,8 @@
     "status": "new",
     "confidence": 0.42,
     "priority": 0.58,
-    "createdAt": "2026-05-27T15:15:13.298Z",
-    "updatedAt": "2026-05-27T15:15:13.298Z",
+    "createdAt": "2026-05-28T15:15:08.988Z",
+    "updatedAt": "2026-05-28T15:15:08.988Z",
     "parentId": "H0001"
   }
 ]

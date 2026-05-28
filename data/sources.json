@@ -1,5 +1,42 @@
 [
   {
+    "id": "S0019",
+    "title": "Sparse Feature Geometry of Transformer Circuits for Model Editing, Alignment and Behavioural Control",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "publishedAt": "2026-05-26",
+    "url": "https://doi.org/10.62311/nesx/rb5m-978-81-686966-5-5",
+    "doi": "10.62311/nesx/rb5m-978-81-686966-5-5",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Abstract Sparse feature geometry has become a decisive frontier for interpreting, editing, aligning and controlling transformer systems because it treats behaviour not as a monolithic property of a model, but as an emergent consequence of distributed, partially sparse and context-sensitive circuits. This manuscript develops a doctoral-level framework for studying transformer circuits through feature spaces, attribution structures, causal interventions, predictive trustworthiness models, reproducible engineering pip",
+    "discoveredAt": "2026-05-28T15:15:03.750Z"
+  },
+  {
+    "id": "S0020",
+    "title": "AI-driven personalization of food systems: From precision nutrition to climate-resilient supply chains",
+    "authors": [
+      "Li Zheng",
+      "Anhui Ren",
+      "Yue San",
+      "Yuejiao Xing",
+      "Hongjuan Teng",
+      "Zhongjiang Wang",
+      "Joe M. Regenstein"
+    ],
+    "venue": "npj Science of Food",
+    "publishedAt": "2026-05-26",
+    "url": "https://doi.org/10.1038/s41538-026-00901-9",
+    "doi": "10.1038/s41538-026-00901-9",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Traditional large-scale production and standardized interventions cannot address the risks due to individual metabolic diversity, climate change, and supply chain disruptions. This article reviews how artificial intelligence (AI) technology synergistically enhances precision nutrition interventions and climate-resilient supply chain resilience through cross-scale data integration and algorithm optimization, breaking away from the fragmented analytical approach that traditionally separates nutrition science from sup",
+    "discoveredAt": "2026-05-28T15:15:03.750Z"
+  },
+  {
     "id": "S0018",
     "title": "GateLens: A reasoning-enhanced LLM agent for automotive software release analytics",
     "authors": [
