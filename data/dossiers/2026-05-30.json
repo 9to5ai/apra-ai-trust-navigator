@@ -1,0 +1,83 @@
+{
+  "date": "2026-05-30",
+  "runStartedAt": "2026-05-29T15:15:00.976Z",
+  "runCompletedAt": "2026-05-29T15:15:13.097Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.7100000000000001,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-05-28T15:15:09.037Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0021",
+      "title": "From Recommender to Actor: The Normative Boundary When RAG Tools Become Tool-Calling Agents",
+      "authors": [
+        "Md Tahmid Rashid"
+      ],
+      "venue": "Minds and Machines",
+      "publishedAt": "2026-05-27",
+      "url": "https://doi.org/10.1007/s11023-026-09782-z",
+      "doi": "10.1007/s11023-026-09782-z",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "Abstract Retrieval-Augmented Generation (RAG) systems increasingly operate not only as tools for retrieving and synthesizing information, but also as agents that can invoke external functions, modify digital environments, and execute tasks across software systems. This development raises a specific normative problem: the point at which a model’s output ceases to be merely informational and becomes an executable intervention in the world.",
+      "discoveredAt": "2026-05-29T15:15:00.976Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0021",
+      "claim": "From Recommender to Actor: The Normative Boundary When RAG Tools Become Tool-Calling Agents adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 1 relevant artifacts clustered around normative, tools, agents, recommender. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.7100000000000001,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-05-29T15:15:13.044Z",
+      "updatedAt": "2026-05-29T15:15:13.044Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-05-29T15:15:13.044Z",
+      "updatedAt": "2026-05-29T15:15:13.044Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}

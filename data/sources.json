@@ -1,5 +1,21 @@
 [
   {
+    "id": "S0021",
+    "title": "From Recommender to Actor: The Normative Boundary When RAG Tools Become Tool-Calling Agents",
+    "authors": [
+      "Md Tahmid Rashid"
+    ],
+    "venue": "Minds and Machines",
+    "publishedAt": "2026-05-27",
+    "url": "https://doi.org/10.1007/s11023-026-09782-z",
+    "doi": "10.1007/s11023-026-09782-z",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Abstract Retrieval-Augmented Generation (RAG) systems increasingly operate not only as tools for retrieving and synthesizing information, but also as agents that can invoke external functions, modify digital environments, and execute tasks across software systems. This development raises a specific normative problem: the point at which a model’s output ceases to be merely informational and becomes an executable intervention in the world.",
+    "discoveredAt": "2026-05-29T15:15:00.976Z"
+  },
+  {
     "id": "S0019",
     "title": "Sparse Feature Geometry of Transformer Circuits for Model Editing, Alignment and Behavioural Control",
     "authors": [
