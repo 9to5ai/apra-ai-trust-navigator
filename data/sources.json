@@ -1,5 +1,20 @@
 [
   {
+    "id": "S0022",
+    "title": "Quantum–AI Systems Thinking through Vedic Wisdom: Strategic, Mathematical, Ecological, and Cognitive Health Perspectives",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "publishedAt": "2026-05-29",
+    "url": "https://doi.org/10.62311/nesx/rb1m-978-81-686966-9-3",
+    "doi": "10.62311/nesx/rb1m-978-81-686966-9-3",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "This academic manuscript develops an interdisciplinary framework for Quantum-AI systems thinking through Vedic wisdom, with strategic, mathematical, ecological and cognitive health perspectives. The book treats Vedic wisdom as an interpretive and ethical knowledge tradition, not as a literal substitute for contemporary physics or empirical science, and positions quantum-AI as a family of uncertainty-aware, optimisation-oriented and adaptive computational methods.",
+    "discoveredAt": "2026-05-31T15:15:02.515Z"
+  },
+  {
     "id": "S0021",
     "title": "From Recommender to Actor: The Normative Boundary When RAG Tools Become Tool-Calling Agents",
     "authors": [
