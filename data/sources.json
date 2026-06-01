@@ -1,5 +1,23 @@
 [
   {
+    "id": "S0023",
+    "title": "Dissociative Identity: Language Model Agents Lack Grounding for Reputation Mechanisms",
+    "authors": [
+      "Botao Amber Hu",
+      "Helena Rong",
+      "Max Van Kleek"
+    ],
+    "venue": "ArXiv.org",
+    "publishedAt": "2026-05-28",
+    "url": "https://doi.org/10.1145/3805689.3806748",
+    "doi": "10.1145/3805689.3806748",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "As autonomous language model agents proliferate, forming an emerging agentic web with real-world consequences, what credibility signals can you use to decide whether to trust an unfamiliar agent in the wild and delegate to it? A natural governance intuition is to extend human identity verification and reputation mechanisms, from ``Know Your Customer'' and credit scores to ``Know Your Agent'' regimes.",
+    "discoveredAt": "2026-06-01T15:15:02.788Z"
+  },
+  {
     "id": "S0022",
     "title": "Quantum–AI Systems Thinking through Vedic Wisdom: Strategic, Mathematical, Ecological, and Cognitive Health Perspectives",
     "authors": [
