@@ -1,5 +1,37 @@
 [
   {
+    "id": "S0024",
+    "title": "A Thematic Qualitative Literature Review of Risk Controls, Compliance Frameworks, and Auditability in Enterprise GRC",
+    "authors": [
+      "Ian Herzing"
+    ],
+    "venue": "Journal of information technology, cybersecurity, and artificial intelligence.",
+    "publishedAt": "2026-05-31",
+    "url": "https://doi.org/10.70715/jitcai.2026.v3.i3.075",
+    "doi": "10.70715/jitcai.2026.v3.i3.075",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "This structured qualitative literature review examines how generative artificial intelligence (GenAI) governance is operationalized in enterprise governance, risk, and compliance (GRC). The review analyzed 37 studies, standards, regulatory materials, scholarly preprints, and professional guidance documents, with substantive GenAI governance and control literature concentrated in 2019-2026.",
+    "discoveredAt": "2026-06-02T15:15:04.868Z"
+  },
+  {
+    "id": "S0025",
+    "title": "Auditing Artificial Intelligence-Driven Financial Systems: Accountability, Transparency, and Auditor Liability in Algorithm-Based Decision Making",
+    "authors": [
+      "Dickson Mdhlalose"
+    ],
+    "venue": "Jurnal Inovasi Akuntansi (JIA)",
+    "publishedAt": "2026-06-01",
+    "url": "https://doi.org/10.36733/jia.v4i1.13758",
+    "doi": "10.36733/jia.v4i1.13758",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Purpose: This study examines how the growing use of Artificial Intelligence (AI) in financial reporting and auditing affects audit reliability, accountability, and transparency. It focuses on key challenges such as AI’s “black box” nature, outdated auditing standards, limited auditor expertise, and unclear legal responsibility.",
+    "discoveredAt": "2026-06-02T15:15:04.868Z"
+  },
+  {
     "id": "S0023",
     "title": "Dissociative Identity: Language Model Agents Lack Grounding for Reputation Mechanisms",
     "authors": [
