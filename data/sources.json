@@ -1,5 +1,70 @@
 [
   {
+    "id": "S0026",
+    "title": "Trust, Identity, and Continuous Attestation for Autonomous Neural Agents: An Integrated Framework Mapping the EVOLENTITY Infrastructure to Machine-Learning Evaluation Metrics",
+    "authors": [
+      "Dmytro Prokopovych-Tkachenko"
+    ],
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "publishedAt": "2026-06-02",
+    "url": "https://doi.org/10.5281/zenodo.20506605",
+    "doi": "10.5281/zenodo.20506605",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.74,
+    "summary": "Abstract Autonomous neural agents are moving rapidly from research prototypes to operational components of digital services, where they perceive, decide, and act with limited human oversight. This shift creates a structural tension: conventional machine-learning evaluation quantifies algorithmic and statistical quality, yet it does not capture whether an agent can be identified, trusted, held accountable, or certified for operation in regulated environments.",
+    "discoveredAt": "2026-06-03T15:15:04.231Z"
+  },
+  {
+    "id": "S0027",
+    "title": "AI-Enhanced CICD Governance for Regulated Cloud Applications: A Compliance-Aware DevOps Framework",
+    "authors": [
+      "Swaminathan Vaidyanathan"
+    ],
+    "venue": "International Journal of Science and Research Archive",
+    "publishedAt": "2026-05-31",
+    "url": "https://doi.org/10.30574/ijsra.2026.19.2.1034",
+    "doi": "10.30574/ijsra.2026.19.2.1034",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "AI-supported CI/CD for regulated cloud applications has become an important area of research because modern delivery pipelines now function not only as engineering infrastructure, but also as compliance-producing systems. Release automation has to produce defensible evidence, as opposed to just making deployment faster, in sectors where safety, privacy, security, and accountability are required.",
+    "discoveredAt": "2026-06-03T15:15:04.231Z"
+  },
+  {
+    "id": "S0028",
+    "title": "Human–AI hybrid finance: from AI tools to decision systems",
+    "authors": [
+      "Gang Kou",
+      "Yan Li",
+      "Haomin Wang",
+      "Xin Wang"
+    ],
+    "venue": "Financial Innovation",
+    "publishedAt": "2026-05-31",
+    "url": "https://doi.org/10.1186/s40854-026-00941-w",
+    "doi": "10.1186/s40854-026-00941-w",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Abstract Artificial intelligence (AI) in finance is commonly reviewed by method, data type, or application domain. These perspectives are essential, but they understate a deeper shift: AI is moving from a predictive tool to a component of human–AI hybrid financial decision systems.",
+    "discoveredAt": "2026-06-03T15:15:04.231Z"
+  },
+  {
+    "id": "S0029",
+    "title": "Untitled work",
+    "authors": [],
+    "venue": "International Journal of Science Strategic Management and Technology",
+    "publishedAt": "2026-06-02",
+    "url": "https://doi.org/10.55041/ijcope.v2i6",
+    "doi": "10.55041/ijcope.v2i6",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Mental health issues are among the most neglected problems in public health and globally, and treatment gaps are significant even among the wealthy nations.The development of artificial intelligence and multi-agent systems can change the accessibility and enable privacy-preserving personalization of mental health support.This paper describes a Hybrid Agentic AI Framework which consists of a Random Forest ensemble classifier, DistilRoBERTa-based Emotion Detection Agent, a Severity Stratification Agent, and a FLAN-T5",
+    "discoveredAt": "2026-06-03T15:15:04.231Z"
+  },
+  {
     "id": "S0024",
     "title": "A Thematic Qualitative Literature Review of Risk Controls, Compliance Frameworks, and Auditability in Enterprise GRC",
     "authors": [
