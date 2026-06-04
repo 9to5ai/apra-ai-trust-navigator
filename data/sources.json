@@ -1,5 +1,60 @@
 [
   {
+    "id": "S0030",
+    "title": "From Siloed Algorithms to Compliance‑First Agentic Platforms: A Multi‑Layered Architecture for Hospital AI Systems",
+    "authors": [
+      "Manideep Dhar",
+      "Ritwik Singh",
+      "Sharat Chandra Kumar Manikonda"
+    ],
+    "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "publishedAt": "2026-06-02",
+    "url": "https://doi.org/10.38124/ijisrt/26may1651",
+    "doi": "10.38124/ijisrt/26may1651",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Hospitals are rapidly adopting artificial intelligence for triage, imaging, scheduling etc., yet most deployments remain isolated point solutions locked inside departmental silos, resulting in duplicated effort, hidden risks, and unrealised enterprise value. Despite explosive growth of AI in healthcare market and accelerating investment, an estimated 70–80% of healthcare AI pilots fail to scale, largely due to governance gaps, fragmented data, and missing integration blueprints.",
+    "discoveredAt": "2026-06-04T15:15:03.873Z"
+  },
+  {
+    "id": "S0031",
+    "title": "Early Online",
+    "authors": [
+      "S Mahomed",
+      "M V Ncube",
+      "A Dhai",
+      "W Janneker",
+      "M Nodikida"
+    ],
+    "venue": "South African Medical Journal",
+    "publishedAt": "2026-06-02",
+    "url": "https://doi.org/10.7196/samj.2026.v116i5.5072",
+    "doi": "10.7196/samj.2026.v116i5.5072",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Artificial intelligence (AI) is rapidly reshaping clinical practice, and has prompted the Health Professions Council of South Africa to publish Booklet 20 – its first ethical framework for AI use in healthcare. This review critically evaluates Booklet 20 through the lens of the South African Medical Association AI Task Team, examining its alignment with national legislation, emerging regulatory mechanisms, broader policy commitments and the ethico-social context.",
+    "discoveredAt": "2026-06-04T15:15:03.873Z"
+  },
+  {
+    "id": "S0032",
+    "title": "Evidence-based AI: from trailblazer to trustblazer?",
+    "authors": [
+      "Thomas Luechtefeld",
+      "Thomas Hartung"
+    ],
+    "venue": "Frontiers in Artificial Intelligence",
+    "publishedAt": "2026-06-03",
+    "url": "https://doi.org/10.3389/frai.2026.1818128",
+    "doi": "10.3389/frai.2026.1818128",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Agentic AI systems can plan, call tools, and coordinate specialized sub-agents, enabling multi-step scientific workflows that exceed what single-model text generation can reliably deliver. Yet in high-stakes domains such as regulatory science and toxicology, fluent outputs are not sufficient: adoption hinges on traceability, reproducibility, context-of-use validity, and explicit uncertainty communication.",
+    "discoveredAt": "2026-06-04T15:15:03.873Z"
+  },
+  {
     "id": "S0026",
     "title": "Trust, Identity, and Continuous Attestation for Autonomous Neural Agents: An Integrated Framework Mapping the EVOLENTITY Infrastructure to Machine-Learning Evaluation Metrics",
     "authors": [
