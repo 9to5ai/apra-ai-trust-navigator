@@ -1,0 +1,137 @@
+{
+  "date": "2026-06-06",
+  "runStartedAt": "2026-06-05T15:15:06.111Z",
+  "runCompletedAt": "2026-06-05T15:15:18.245Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-06-04T15:15:16.017Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0033",
+      "title": "Hybrid Remote Video Auditing Framework for Proactive Construction Site Safety Management",
+      "authors": [
+        "Dr. Vishal Singh Dr. Vishal Singh",
+        "N R Dakshina Murthy",
+        "G Sandya G Sandya"
+      ],
+      "venue": "International Journal of Creative and Open Research in Engineering and Management",
+      "publishedAt": "2026-06-04",
+      "url": "https://doi.org/10.55041/ijcope.v2i6.030",
+      "doi": "10.55041/ijcope.v2i6.030",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5800000000000001,
+      "summary": "The construction industry ranks among the most hazardous sectors globally, accounting for approximately 17–20% of all occupational fatalities while employing only 7% of the global workforce. Conventional safety auditing methods characterized by periodic inspections, limited spatial coverage, and reactive orientation—fail to achieve the continuous hazard detection necessary to substantially reduce construction accident rates.",
+      "discoveredAt": "2026-06-05T15:15:06.111Z"
+    },
+    {
+      "id": "S0034",
+      "title": "The Agentic AI Framework (AAIF): a policy-enforced architecture for accountable and high-performance intrusion detection",
+      "authors": [
+        "IBRAHIM ADABARA",
+        "Bashir Olaniyi Sadiq",
+        "Aliyu Nuhu Shuaibu",
+        "Yale Ibrahim Danjuma",
+        "Venkateswarlu Maninti",
+        "Mutebi Joe"
+      ],
+      "venue": "Frontiers in Artificial Intelligence",
+      "publishedAt": "2026-06-04",
+      "url": "https://doi.org/10.3389/frai.2026.1755696",
+      "doi": "10.3389/frai.2026.1755696",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.48,
+      "summary": "Artificial intelligence plays a central role in modern cybersecurity, yet systems optimized for detection accuracy often lack mechanisms for accountability, transparency, and policy compliance. This study proposes the Agentic AI Framework (AAIF), a policy-aware intrusion detection architecture that integrates predictive modeling with executable governance.",
+      "discoveredAt": "2026-06-05T15:15:06.111Z"
+    },
+    {
+      "id": "S0035",
+      "title": "Artificial intelligence in paediatric chest imaging: applications, challenges, and future directions",
+      "authors": [
+        "John Joseph Muringathuparambil",
+        "Shamiek Maharaj",
+        "Bradley Segal",
+        "Nasreen Mahomed"
+      ],
+      "venue": "Pediatric Radiology",
+      "publishedAt": "2026-06-03",
+      "url": "https://doi.org/10.1007/s00247-026-06671-6",
+      "doi": "10.1007/s00247-026-06671-6",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "BACKGROUND: Paediatric chest imaging is central to diagnosing respiratory and cardiopulmonary disease, particularly in low- and middle-income countries (LMICs) where pneumonia remains a leading cause of childhood mortality and radiology expertise is scarce. Artificial intelligence (AI) could expand access, standardise quality and support task-shifting in these \"diagnostic deserts,\" yet most systems are trained and validated on adult datasets from high-income settings, and paediatric radiographs form only a small mi",
+      "discoveredAt": "2026-06-05T15:15:06.111Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0033",
+      "claim": "Hybrid Remote Video Auditing Framework for Proactive Construction Site Safety Management adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0034",
+      "claim": "The Agentic AI Framework (AAIF): a policy-enforced architecture for accountable and high-performance intrusion detection adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0035",
+      "claim": "Artificial intelligence in paediatric chest imaging: applications, challenges, and future directions adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 3 relevant artifacts clustered around detection, framework, construction, artificial. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-06-05T15:15:18.181Z",
+      "updatedAt": "2026-06-05T15:15:18.181Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-06-05T15:15:18.181Z",
+      "updatedAt": "2026-06-05T15:15:18.181Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}
