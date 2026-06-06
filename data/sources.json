@@ -1,5 +1,23 @@
 [
   {
+    "id": "S0036",
+    "title": "AI-Assisted Formative Assessment in Clinical Education: From Algorithms to Agency",
+    "authors": [
+      "Quang Thanh Nguyen",
+      "Thuy Minh Ha",
+      "Tina Mai"
+    ],
+    "venue": "JMIR Medical Education",
+    "publishedAt": "2026-06-04",
+    "url": "https://doi.org/10.2196/93710",
+    "doi": "10.2196/93710",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Unlabelled: Artificial intelligence (AI) is rapidly reshaping clinical education by embedding assessment and feedback into everyday learning activities. Medical students can now use machine learning dashboards, generative AI, large language models, and emerging agentic systems to practice clinical reasoning, communication, and procedural skills while receiving individualized feedback within seconds.",
+    "discoveredAt": "2026-06-06T15:15:01.231Z"
+  },
+  {
     "id": "S0033",
     "title": "Hybrid Remote Video Auditing Framework for Proactive Construction Site Safety Management",
     "authors": [

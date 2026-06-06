@@ -6,7 +6,7 @@
     "confidence": 0.72,
     "priority": 0.86,
     "createdAt": "2026-05-25T13:37:25.859Z",
-    "updatedAt": "2026-06-05T15:15:18.245Z",
+    "updatedAt": "2026-06-06T15:15:03.753Z",
     "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
   },
   {
@@ -15,8 +15,8 @@
     "status": "new",
     "confidence": 0.42,
     "priority": 0.62,
-    "createdAt": "2026-06-05T15:15:18.181Z",
-    "updatedAt": "2026-06-05T15:15:18.181Z",
+    "createdAt": "2026-06-06T15:15:03.709Z",
+    "updatedAt": "2026-06-06T15:15:03.709Z",
     "parentId": "H0001"
   },
   {
@@ -25,8 +25,8 @@
     "status": "new",
     "confidence": 0.42,
     "priority": 0.58,
-    "createdAt": "2026-06-05T15:15:18.181Z",
-    "updatedAt": "2026-06-05T15:15:18.181Z",
+    "createdAt": "2026-06-06T15:15:03.709Z",
+    "updatedAt": "2026-06-06T15:15:03.709Z",
     "parentId": "H0001"
   }
 ]
