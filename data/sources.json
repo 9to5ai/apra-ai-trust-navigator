@@ -1,5 +1,21 @@
 [
   {
+    "id": "S0037",
+    "title": "Governing Large Reasoning Models in Enterprise Decision Systems: Transparency, Human Oversight, and Risk Classification",
+    "authors": [
+      "Varun Kumar Muppidi"
+    ],
+    "venue": "Journal of Information Systems Engineering & Management",
+    "publishedAt": "2025-12-13",
+    "url": "https://doi.org/10.52783/jisem.v10i63s.15007",
+    "doi": "10.52783/jisem.v10i63s.15007",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "The enterprise decision systems are increasingly being burdened with large reasoning models (LRMs), such as large language models used for complex inference, planning and judgement support. However, their applications in credit, compliance, procurement, the assessment of human risk, healthcare, and the making of operating decisions involve tricky governance issues related to transparency, man-in-the-middle and risk categorization.",
+    "discoveredAt": "2026-06-09T15:15:03.070Z"
+  },
+  {
     "id": "S0036",
     "title": "AI-Assisted Formative Assessment in Clinical Education: From Algorithms to Agency",
     "authors": [
