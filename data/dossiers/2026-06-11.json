@@ -1,0 +1,206 @@
+{
+  "date": "2026-06-11",
+  "runStartedAt": "2026-06-10T15:15:00.839Z",
+  "runCompletedAt": "2026-06-10T15:15:03.332Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-06-09T15:15:05.964Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0038",
+      "title": "Bard to Gemini: A Technical &amp; Qualitative Assessment of Google’s Evolving Gen AI Ecosystem",
+      "authors": [
+        "Zarif Bin Akhtar"
+      ],
+      "venue": "Scientific Insights",
+      "publishedAt": "2026-06-08",
+      "url": "https://doi.org/10.64897/si.2026v2i1.004",
+      "doi": "10.64897/si.2026v2i1.004",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5800000000000001,
+      "summary": "The rapid evolution of Artificial Intelligence (AI) and integrated device peripherals is transforming the digital landscape, particularly in information accessibility and human-computer interaction. This study presents a mixed-methods analysis of Google’s conversational AI system, Gemini (formerly Bard), providing a comprehensive evaluation of its functionality, user experience, and architectural foundations.",
+      "discoveredAt": "2026-06-10T15:15:00.839Z"
+    },
+    {
+      "id": "S0039",
+      "title": "An Initial Assessment of Standards in Technology Tort Litigation",
+      "authors": [
+        "Justin Hurwitz",
+        "Yike Lu"
+      ],
+      "venue": "Science and Technology Law Review",
+      "publishedAt": "2026-06-08",
+      "url": "https://doi.org/10.52214/stlr.v27i2.14865",
+      "doi": "10.52214/stlr.v27i2.14865",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Standards are a central preoccupation of AI governance, yet the dominant policy conversation—focused on regulatory compliance and coordination—does not capture how standards actually function in the legal domain most likely to govern AI-related harms: tort law. This Article offers an empirical and doctrinal assessment of standards in technology tort litigation, surveying reported decisions to map how courts use standards across negligence and products liability contexts.",
+      "discoveredAt": "2026-06-10T15:15:00.839Z"
+    },
+    {
+      "id": "S0040",
+      "title": "Cybersecurity in Autonomous AI Robotics: A Review of Emerging Threats, Adversarial Attacks, and Mitigation Techniques",
+      "authors": [
+        "Shuruq Khalid Abdulredha"
+      ],
+      "venue": "Center of Artificial Intelligence",
+      "publishedAt": "2026-06-07",
+      "url": "https://doi.org/10.65591/cai-143-2026",
+      "doi": "10.65591/cai-143-2026",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Intelligent robotic systems that utilize artificial intelligence (AI), and have been expanding into high-risk applications (e.g., health care, manufacturing/industrial automation, transportation/smart mobility, etc.), require effective cybersecurity measures to maintain both safe operation and dependability. Compared with typical cyber-physical systems, advanced robotic systems include multiple layers (sensing, control, communications, middleware, and/or AI-based decision support) which create a complex and highly ",
+      "discoveredAt": "2026-06-10T15:15:00.839Z"
+    },
+    {
+      "id": "S0041",
+      "title": "On the relationship between interpersonal trust and trust in artificial intelligence: empirical evidence, explanatory mechanisms, and policy implications",
+      "authors": [
+        "René Riedl‬"
+      ],
+      "venue": "Informatik-Spektrum",
+      "publishedAt": "2026-06-08",
+      "url": "https://doi.org/10.1007/s00287-026-01607-8",
+      "doi": "10.1007/s00287-026-01607-8",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "Abstract Artificial intelligence (AI) systems are becoming increasingly integrated into socio-technical infrastructures. However, their long-term deployment depends fundamentally on public trust.",
+      "discoveredAt": "2026-06-10T15:15:00.839Z"
+    },
+    {
+      "id": "S0042",
+      "title": "The bottleneck was never data or algorithms: building a learning utility for AI-enabled learning health systems",
+      "authors": [
+        "Jiang Bian",
+        "Majid Afshar",
+        "Christina M. Scifres",
+        "Emily Webber",
+        "David Burton",
+        "D. Vawdrey",
+        "Fei Wang",
+        "Genevieve B. Melton",
+        "Nigam Shah",
+        "Rachel E. Patzer",
+        "Yiye Zhang"
+      ],
+      "venue": "npj Health Systems",
+      "publishedAt": "2026-06-07",
+      "url": "https://doi.org/10.1038/s44401-026-00107-x",
+      "doi": "10.1038/s44401-026-00107-x",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "Although envisioned nearly two decades ago, the learning health system (LHS) remains largely unrealized at scale. The limiting factor is not data or algorithms but rather the failure to build, the technical, human, and cultural infrastructure needed to operationalize continuous learning.",
+      "discoveredAt": "2026-06-10T15:15:00.839Z"
+    },
+    {
+      "id": "S0043",
+      "title": "A Study on AI Technologies and Their Role in Modern Cybersecurity Threats",
+      "authors": [
+        "Dr. Urmila Kadam Dr. Urmila Kadam",
+        "Dr. Santosh Deshmukh Dr. Santosh Deshmukh",
+        "Vedangi Deshmukh Vedangi Deshmukh"
+      ],
+      "venue": "International Journal of Science Strategic Management and Technology",
+      "publishedAt": "2026-06-07",
+      "url": "https://doi.org/10.55041/ijsmt.v2i5.579",
+      "doi": "10.55041/ijsmt.v2i5.579",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "The rapid growth of Artificial Intelligence (AI) has transformed multiple sectors, enhancing digitisation, performance, and predictive analytics. However, due to rapid development in there are new growing threats like cyber threats, cybercrimes and many more.",
+      "discoveredAt": "2026-06-10T15:15:00.839Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0038",
+      "claim": "Bard to Gemini: A Technical &amp; Qualitative Assessment of Google’s Evolving Gen AI Ecosystem adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0039",
+      "claim": "An Initial Assessment of Standards in Technology Tort Litigation adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0040",
+      "claim": "Cybersecurity in Autonomous AI Robotics: A Review of Emerging Threats, Adversarial Attacks, and Mitigation Techniques adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0041",
+      "claim": "On the relationship between interpersonal trust and trust in artificial intelligence: empirical evidence, explanatory mechanisms, and policy implications adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0042",
+      "claim": "The bottleneck was never data or algorithms: building a learning utility for AI-enabled learning health systems adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0043",
+      "claim": "A Study on AI Technologies and Their Role in Modern Cybersecurity Threats adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 6 relevant artifacts clustered around artificial, intelligence, standards, threats. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-06-10T15:15:03.260Z",
+      "updatedAt": "2026-06-10T15:15:03.260Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-06-10T15:15:03.260Z",
+      "updatedAt": "2026-06-10T15:15:03.260Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}
