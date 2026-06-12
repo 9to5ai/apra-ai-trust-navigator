@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-13",
+  "runStartedAt": "2026-06-12T15:15:01.339Z",
+  "runCompletedAt": "2026-06-12T15:15:05.443Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-06-11T15:15:03.628Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0044",
+      "title": "The EU AI Act: implications and compliance guidance for healthcare facilities",
+      "authors": [
+        "Fabio Dennstädt",
+        "Janna Hastings",
+        "Paul Windisch",
+        "Aleksa Jovanovic",
+        "Tijana Žunić Marić",
+        "Sarah Brüningk",
+        "D Aebersold",
+        "Antje Knopf",
+        "Nikola Cihoric"
+      ],
+      "venue": "Frontiers in Digital Health",
+      "publishedAt": "2026-06-10",
+      "url": "https://doi.org/10.3389/fdgth.2026.1808373",
+      "doi": "10.3389/fdgth.2026.1808373",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Background The European Union AI Act [Regulation (EU) 2024/1689] establishes the first comprehensive legal framework for artificial intelligence. While AI offers transformative potential in healthcare, its deployment introduces risks regarding safety, bias, and accountability.",
+      "discoveredAt": "2026-06-12T15:15:01.339Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0044",
+      "claim": "The EU AI Act: implications and compliance guidance for healthcare facilities adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 1 relevant artifacts clustered around healthcare, implications, compliance, guidance. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-06-12T15:15:05.420Z",
+      "updatedAt": "2026-06-12T15:15:05.420Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-06-12T15:15:05.421Z",
+      "updatedAt": "2026-06-12T15:15:05.421Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}

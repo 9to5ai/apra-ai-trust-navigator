@@ -1,5 +1,29 @@
 [
   {
+    "id": "S0044",
+    "title": "The EU AI Act: implications and compliance guidance for healthcare facilities",
+    "authors": [
+      "Fabio Dennstädt",
+      "Janna Hastings",
+      "Paul Windisch",
+      "Aleksa Jovanovic",
+      "Tijana Žunić Marić",
+      "Sarah Brüningk",
+      "D Aebersold",
+      "Antje Knopf",
+      "Nikola Cihoric"
+    ],
+    "venue": "Frontiers in Digital Health",
+    "publishedAt": "2026-06-10",
+    "url": "https://doi.org/10.3389/fdgth.2026.1808373",
+    "doi": "10.3389/fdgth.2026.1808373",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Background The European Union AI Act [Regulation (EU) 2024/1689] establishes the first comprehensive legal framework for artificial intelligence. While AI offers transformative potential in healthcare, its deployment introduces risks regarding safety, bias, and accountability.",
+    "discoveredAt": "2026-06-12T15:15:01.339Z"
+  },
+  {
     "id": "S0038",
     "title": "Bard to Gemini: A Technical &amp; Qualitative Assessment of Google’s Evolving Gen AI Ecosystem",
     "authors": [
