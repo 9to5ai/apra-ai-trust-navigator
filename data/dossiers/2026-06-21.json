@@ -1,0 +1,298 @@
+{
+  "date": "2026-06-21",
+  "runStartedAt": "2026-06-20T15:15:02.257Z",
+  "runCompletedAt": "2026-06-20T15:15:04.860Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-06-12T15:15:05.443Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0045",
+      "title": "The CMA Agentic Platform: Autonomous Asset Verification and Algorithmic Auditor Governance",
+      "authors": [
+        "Abdulkarim Hamdan J. Alhazmi",
+        "Sardar M. N. Islam",
+        "Maria Prokofieva"
+      ],
+      "venue": "FinTech",
+      "publishedAt": "2026-06-17",
+      "url": "https://doi.org/10.3390/fintech5020055",
+      "doi": "10.3390/fintech5020055",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.6599999999999999,
+      "summary": "Saudi Arabia’s audit market faces three governance challenges that existing frameworks may not fully address. These challenges concern a potential regulatory gap around autonomous AI accountability, a trust dimension that standard technology-adoption models may not fully capture, and limited mechanisms for independently verified ESG assurance under Vision 2030.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0046",
+      "title": "Toward Identifying Role-Aligned AI Governance Needs in Mixed-Trust Environments",
+      "authors": [
+        "Bijesh Shrestha",
+        "Nicholas Harrell",
+        "Matthew Corbett",
+        "Michael Quigg"
+      ],
+      "venue": "European Conference on Cyber Warfare and Security",
+      "publishedAt": "2026-06-15",
+      "url": "https://doi.org/10.34190/eccws.25.1.4710",
+      "doi": "10.34190/eccws.25.1.4710",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5800000000000001,
+      "summary": "The rapid emergence of AI is driving governance challenges in security-sensitive organizational settings. For example, deploying AI in these contexts typically requires embedding automated or semi-automated decision-making into mixed-trust environments characterized by legacy systems, uneven access to and visibility into governance-relevant artifacts, and strict operational, security, and compliance constraints.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0047",
+      "title": "On the Establishment of Trust: Rethinking Trust in the Age of Artificial Intelligence",
+      "authors": [
+        "Christoph Lipps",
+        "Siphesihle Sithungu"
+      ],
+      "venue": "European Conference on Cyber Warfare and Security",
+      "publishedAt": "2026-06-15",
+      "url": "https://doi.org/10.34190/eccws.25.1.4869",
+      "doi": "10.34190/eccws.25.1.4869",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5800000000000001,
+      "summary": "Trust has always been a fundamental element of organisational and social structures, enabling cooperation in situations where uncertainty or vulnerability cannot be fully eliminated. As societies and infrastructures have become increasingly interconnected, the foundations of trust have shifted from interpersonal relationships toward complex institutional and technological arrangements.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0048",
+      "title": "Governing Artificial Intelligence for Energy Planning and Transition: Shared AI Governance for Energy Systems (SAGES) - A briefing note",
+      "authors": [
+        "Nataliya Tkachenko",
+        "Trivik Verma",
+        "Iain Staffell",
+        "Simon Benmarraze",
+        "Yunshu Li",
+        "Nadeem Goussous",
+        "Bilal Hussain",
+        "Lara Dixon",
+        "Jan Jose García Méndez",
+        "George Partasides",
+        "Alycia Leonard",
+        "Francesco Gardumi"
+      ],
+      "publishedAt": "2026-06-12",
+      "url": "https://doi.org/10.33774/coe-2026-0gzfx",
+      "doi": "10.33774/coe-2026-0gzfx",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "This briefing examines how artificial intelligence is entering national energy planning and why its use requires explicit governance, assurance and capacity-building. Its scope covers AI applications in forecasting, scenario exploration, optimisation acceleration, digital twins, generative-AI-enabled workflows, stress testing and decision support for increasingly complex, climate-exposed and cross-sectoral energy systems.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0049",
+      "title": "BuildSafe: a generative AI framework for joint construction safety, permit, and community-impact reasoning from linked NYC DOB-OSHA-311 data",
+      "authors": [
+        "Shahid Ali",
+        "Ammar Alzarrad",
+        "Hwapyeong Song",
+        "Husnu S. Narman"
+      ],
+      "venue": "Frontiers in Built Environment",
+      "publishedAt": "2026-06-18",
+      "url": "https://doi.org/10.3389/fbuil.2026.1846314",
+      "doi": "10.3389/fbuil.2026.1846314",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "BuildSafe investigates whether domain-adapted generative models can turn routine administrative text permit filings, incident narratives, and citizen complaints into early-warning signals for construction risk in New York City. The study links Department of Buildings (DOB) records, OSHA enforcement cases, and 311 complaints into a shared schema.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0050",
+      "title": "An Adaptive Governance-Centric MLOps Framework for Risk-Tiered Control and Continuous Assurance of Responsible AI in High-Stakes Domains",
+      "authors": [
+        "Sunilkumar Reddy Eraganeni"
+      ],
+      "venue": "International Journal of Computational and Experimental Science and Engineering",
+      "publishedAt": "2026-06-17",
+      "url": "https://doi.org/10.22399/ijcesen.5340",
+      "doi": "10.22399/ijcesen.5340",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "The rapid adoption of machine learning (ML) and deep learning (DL) models in high-stakes domains such as financial credit assessment, healthcare, and critical infrastructure necessitates governance frameworks beyond conventional MLOps practices. Existing approaches focus primarily on operational efficiency while lacking integrated support for regulatory compliance, explainability, and fairness, which are critical under emerging regulations such as the EU AI Act and GDPR.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0051",
+      "title": "Towards AI-Augmented Public Audit Systems: A Policy and Implementation Roadmap for Us Government Agencies and Multilateral Organizations",
+      "authors": [
+        "Nyiawung Fobellah Abetoh"
+      ],
+      "venue": "Nigerian Journal of Sustainability Research",
+      "publishedAt": "2026-06-11",
+      "url": "https://doi.org/10.67163/jhsp.vol.12.no5.2026.pg85.138",
+      "doi": "10.67163/jhsp.vol.12.no5.2026.pg85.138",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "The integration of artificial intelligence into public sector audit and accountability functions represents one of the most consequential governance transformations of the early twenty-first century.Government agencies charged with fiscal oversight, program integrity monitoring, and financial accountability now confront a landscape in which the volume, velocity, and complexity of financial transaction data have fundamentally outpaced the capacity of traditional audit methodologies to deliver timely and comprehensiv",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0052",
+      "title": "Seven security challenges in cross-domain multi-agent LLM systems",
+      "authors": [
+        "Ronny Ko",
+        "J Chung",
+        "Shuyuan Zheng",
+        "Chuan Xiao",
+        "Tae-Wan Kim",
+        "Makoto Onizuka",
+        "Won-Yong Shin"
+      ],
+      "venue": "npj Artificial Intelligence",
+      "publishedAt": "2026-06-13",
+      "url": "https://doi.org/10.1038/s44387-026-00128-9",
+      "doi": "10.1038/s44387-026-00128-9",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Large language models are evolving into autonomous agents that collaborate across organizations for tasks like disaster response and supply-chain optimization. However, such cooperation breaks unified trust assumptions: a benign agent may leak secrets or violate policy when interacting with untrusted peers.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0053",
+      "title": "ADCM-360: Airline Digital Core Modernization 360° Framework",
+      "authors": [
+        "SeyyedAbdolHojjat MoghadasNian"
+      ],
+      "publishedAt": "2026-06-10",
+      "url": "https://doi.org/10.24108/preprints-3115488",
+      "doi": "10.24108/preprints-3115488",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "Airlines increasingly compete through the maturity of their digital core, not only through fleet size, routes, pricing, and service quality. Yet many airline digital initiatives remain fragmented across enterprise resource planning, passenger service systems, departure control, maintenance and engineering, operational control, customer relationship management, finance, procurement, business intelligence, cloud platforms, and artificial intelligence pilots.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    },
+    {
+      "id": "S0054",
+      "title": "AI safety landscape for large language models: taxonomy, state-of-the-art, and future directions",
+      "authors": [
+        "Chen Chen",
+        "Xueluan Gong",
+        "Ziyao Liu",
+        "W.M. Wang L.H. Jiang",
+        "Si Qi Goh",
+        "Kwok‐Yan Lam"
+      ],
+      "venue": "Artificial Intelligence Review",
+      "publishedAt": "2026-06-16",
+      "url": "https://doi.org/10.1007/s10462-026-11590-x",
+      "doi": "10.1007/s10462-026-11590-x",
+      "sourceType": "preprint",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "AI safety is an emerging field of critical importance for the secure adoption and deployment of AI systems. With the recent advancements in large language models (LLMs), the technological landscape surrounding the design, development, and deployment of AI systems has undergone significant change.",
+      "discoveredAt": "2026-06-20T15:15:02.257Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0045",
+      "claim": "The CMA Agentic Platform: Autonomous Asset Verification and Algorithmic Auditor Governance adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0046",
+      "claim": "Toward Identifying Role-Aligned AI Governance Needs in Mixed-Trust Environments adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0047",
+      "claim": "On the Establishment of Trust: Rethinking Trust in the Age of Artificial Intelligence adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0048",
+      "claim": "Governing Artificial Intelligence for Energy Planning and Transition: Shared AI Governance for Energy Systems (SAGES) - A briefing note adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0049",
+      "claim": "BuildSafe: a generative AI framework for joint construction safety, permit, and community-impact reasoning from linked NYC DOB-OSHA-311 data adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0050",
+      "claim": "An Adaptive Governance-Centric MLOps Framework for Risk-Tiered Control and Continuous Assurance of Responsible AI in High-Stakes Domains adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0051",
+      "claim": "Towards AI-Augmented Public Audit Systems: A Policy and Implementation Roadmap for Us Government Agencies and Multilateral Organizations adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0052",
+      "claim": "Seven security challenges in cross-domain multi-agent LLM systems adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 10 relevant artifacts clustered around governance, trust, models, intelligence. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-06-20T15:15:04.798Z",
+      "updatedAt": "2026-06-20T15:15:04.798Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-06-20T15:15:04.798Z",
+      "updatedAt": "2026-06-20T15:15:04.798Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}
