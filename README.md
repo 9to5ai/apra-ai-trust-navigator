@@ -1,6 +1,13 @@
-# AI Trust Frontier
+# APRA AI Trust Navigator
 
-A public, Vercel-hosted research log for nightly AI trust research.
+A practical APRA-focused web app for regulated entities that need to map AI use cases, governance, operational risk, information security, and sector overlays to prudential expectations.
+
+## What it does
+
+- Crosswalks APRA's cross-industry prudential standards into concrete controls and evidence
+- Summarises the latest APRA publications that affect AI governance
+- Shows what changes for ADIs, insurers, superannuation trustees, and private health insurers
+- Gives board-level questions, a 90-day action plan, and an evidence pack checklist
 
 ## Local setup
 
@@ -9,44 +16,16 @@ npm install
 npm run dev
 ```
 
-## Nightly research
-
-The runner works with open metadata sources and optionally uses an OpenAI-compatible chat completion endpoint for synthesis.
+## Checks
 
 ```bash
-export AI_TRUST_LLM_PROVIDER=openai-compatible
-export AI_TRUST_LLM_API_KEY=...
-export AI_TRUST_LLM_MODEL=...
-export AI_TRUST_LLM_BASE_URL=https://api.openai.com/v1
-npm run research:nightly
+npm run lint
+npm run build
+npm test
 ```
 
-Without LLM credentials, the runner still collects sources and writes a conservative heuristic dossier.
+## Deploy
 
-## Vercel deployment
-
-Create a GitHub repo for this folder, import it in Vercel as a Next.js project, then let the nightly job commit and push `data/` updates. Vercel will redeploy on each push.
-
-```bash
-git init
-git add .
-git commit -m "Initial AI trust frontier"
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-If you prefer manual deployment, run `vercel --prod` after linking the project with the Vercel CLI.
-
-## Schedule
-
-```bash
-npm run install:launchd
-```
-
-The job runs daily at `01:15` local Mac time.
-
-Run once manually before relying on the schedule:
-
-```bash
-npm run research:nightly
-```
+- Push to GitHub
+- Deploy to Vercel
+- Let Vercel redeploy automatically on each push

@@ -3,15 +3,17 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Trust Frontier",
-  description: "Nightly technical assurance research on AI trust.",
+  title: "APRA AI Trust Navigator",
+  description:
+    "A practical web app for regulated entities that need to map AI risk, governance, resilience, and security to APRA prudential standards.",
 };
 
 const navItems = [
-  { href: "/", label: "Latest" },
-  { href: "/archive", label: "Archive" },
-  { href: "/sources", label: "Sources" },
-  { href: "/hypotheses", label: "Hypotheses" },
+  { href: "/#overview", label: "Overview" },
+  { href: "/#publications", label: "Publications" },
+  { href: "/#standards", label: "Standards" },
+  { href: "/#plan", label: "Plan" },
+  { href: "/#questions", label: "Questions" },
 ];
 
 export default function RootLayout({
@@ -22,9 +24,9 @@ export default function RootLayout({
       <body>
         <div className="site-shell">
           <header className="topbar">
-            <Link href="/" className="brand" aria-label="AI Trust Frontier">
-              <span className="brand-mark">AT</span>
-              <span>AI Trust Frontier</span>
+            <Link href="/" className="brand" aria-label="APRA AI Trust Navigator">
+              <span className="brand-mark">AP</span>
+              <span>APRA AI Trust Navigator</span>
             </Link>
             <nav className="nav">
               {navItems.map((item) => (
