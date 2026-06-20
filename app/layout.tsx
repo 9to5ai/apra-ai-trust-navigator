@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 };
 
 const navItems = [
-  { href: "/#overview", label: "Overview" },
+  { href: "/#handbook", label: "Handbook" },
+  { href: "/#clauses", label: "Clauses" },
   { href: "/#publications", label: "Publications" },
-  { href: "/#standards", label: "Standards" },
   { href: "/#plan", label: "Plan" },
   { href: "/#questions", label: "Questions" },
 ];

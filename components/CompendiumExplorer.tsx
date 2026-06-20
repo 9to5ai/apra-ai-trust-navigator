@@ -5,9 +5,11 @@ import {
   ArrowUpRight,
   BadgeCheck,
   Brain,
+  BookOpenText,
   ClipboardList,
-  Filter,
+  FileText,
   Landmark,
+  Layers3,
   Search,
   ShieldCheck,
   Sparkles,
@@ -16,12 +18,15 @@ import {
   Workflow,
 } from "lucide-react";
 import {
-  audienceOptions,
+  apraClauseAtlas,
+  handbookPillars,
+  type APRAClauseAtlasEntry,
+} from "@/lib/apra-clauses";
+import {
   boardQuestions,
   controlLibrary,
   publicationHighlights,
   roadmap,
-  topicOptions,
 } from "@/lib/compendium";
 
 const accentClass: Record<string, string> = {
@@ -33,84 +38,137 @@ const accentClass: Record<string, string> = {
   green: "card-accent green",
 };
 
-export function CompendiumExplorer() {
-  const [query, setQuery] = useState("");
-  const [audience, setAudience] = useState<(typeof audienceOptions)[number]["id"]>("all");
-  const [topic, setTopic] = useState<(typeof topicOptions)[number]["id"]>("all");
+function countClauses(entry: APRAClauseAtlasEntry) {
+  return entry.sections.reduce((sum, section) => sum + section.items.length, 0);
+}
 
-  const filteredControls = useMemo(() => {
+function clauseExcerpt(text: string) {
+  const clean = text.replace(/\s+/g, " ").trim();
+  return clean.length > 190 ? `${clean.slice(0, 190)}...` : clean;
+}
+
+function clauseKey(standardId: string, itemId: string) {
+  return `${standardId}:${itemId}`;
+}
+
+export function CompendiumExplorer() {
+  const [pillar, setPillar] = useState(handbookPillars[0].id);
+  const [standardId, setStandardId] = useState(apraClauseAtlas[0].id);
+  const [query, setQuery] = useState("");
+  const [activeClause, setActiveClause] = useState("");
+
+  const allClauseCount = useMemo(
+    () => apraClauseAtlas.reduce((sum, entry) => sum + countClauses(entry), 0),
+    [],
+  );
+  const allSectionCount = useMemo(
+    () => apraClauseAtlas.reduce((sum, entry) => sum + entry.sectionCount, 0),
+    [],
+  );
+
+  const visibleStandards = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return controlLibrary.filter((card) => {
-      const matchesAudience = audience === "all" || card.audience.includes(audience);
-      const matchesTopic = topic === "all" || card.topics.includes(topic);
-      if (!matchesAudience || !matchesTopic) return false;
+    return apraClauseAtlas.filter((entry) => {
+      if (entry.pillar !== pillar) return false;
       if (!needle) return true;
       const haystack = [
-        card.standard,
-        card.title,
-        card.summary,
-        ...card.whatAPRAExpects,
-        ...card.practicalControls,
-        ...card.evidence,
-        ...card.aiImplications,
-        ...card.links.map((link) => link.label),
+        entry.code,
+        entry.title,
+        entry.summary,
+        ...entry.sections.map((section) => section.title),
+        ...entry.sections.flatMap((section) => section.items.map((item) => item.text)),
       ]
         .join(" ")
         .toLowerCase();
       return haystack.includes(needle);
     });
-  }, [audience, query, topic]);
+  }, [pillar, query]);
 
-  const aiControls = controlLibrary.filter((card) => card.topics.includes("ai")).length;
-  const sectorCards = controlLibrary.filter((card) => card.topics.includes("sector")).length;
-  const controlBullets = controlLibrary.reduce(
-    (sum, card) => sum + card.whatAPRAExpects.length + card.practicalControls.length + card.aiImplications.length,
-    0,
+  const selectedStandard = useMemo(() => {
+    return (
+      visibleStandards.find((entry) => entry.id === standardId) ??
+      visibleStandards[0] ??
+      apraClauseAtlas.find((entry) => entry.id === standardId) ??
+      apraClauseAtlas[0]
+    );
+  }, [standardId, visibleStandards]);
+
+  const selectedOverview = useMemo(
+    () => controlLibrary.find((card) => card.id === selectedStandard.id),
+    [selectedStandard.id],
   );
+
+  const filteredSections = useMemo(() => {
+    const needle = query.trim().toLowerCase();
+    return selectedStandard.sections
+      .map((section) => {
+        const items = section.items.filter((item) => {
+          if (!needle) return true;
+          const text = [selectedStandard.code, selectedStandard.title, section.title, item.number, item.text]
+            .join(" ")
+            .toLowerCase();
+          return text.includes(needle);
+        });
+        return { ...section, items };
+      })
+      .filter((section) => section.items.length > 0);
+  }, [query, selectedStandard]);
+
+  const flatClauses = useMemo(
+    () => filteredSections.flatMap((section) => section.items.map((item) => ({ section: section.title, ...item }))),
+    [filteredSections],
+  );
+
+  const activeClauseItem = useMemo(() => {
+    const [standard, itemId] = activeClause.split(":");
+    if (standard !== selectedStandard.id) return flatClauses[0] ?? null;
+    return flatClauses.find((item) => item.id === itemId) ?? flatClauses[0] ?? null;
+  }, [activeClause, flatClauses, selectedStandard.id]);
+
+  const selectedPillar = handbookPillars.find((item) => item.id === pillar) ?? handbookPillars[0];
 
   return (
     <main className="page compendium-page">
       <section className="hero panel">
         <div className="hero-copy">
           <p className="eyebrow">APRA AI Trust Navigator</p>
-          <h1>APRA AI compliance, made concrete</h1>
+          <h1>APRA AI compliance, clause by clause</h1>
           <p className="lead">
-            This is a working crosswalk from APRA's prudential standards and latest publications into
-            controls, evidence, board questions, and sector-specific action items. No slogans, no
-            policy theater.
+            This version is built around APRA's Prudential Handbook. Pick a pillar, drill into a standard,
+            and open the numbered clauses that sit behind the policy language.
           </p>
 
           <div className="hero-actions">
-            <a className="button primary" href="#publications">
-              Review APRA publications
-              <ArrowUpRight size={16} />
+            <a className="button primary" href="#handbook">
+              Open the handbook map
+              <BookOpenText size={16} />
             </a>
-            <a className="button secondary" href="#standards">
-              Open the control library
+            <a className="button secondary" href="#clauses">
+              Browse the clause atlas
               <ClipboardList size={16} />
             </a>
           </div>
 
           <div className="signal-strip" aria-label="What the app covers">
             <article className="signal-card">
-              <span className="signal-badge">Coverage</span>
-              <h3>{controlLibrary.length} control blocks</h3>
-              <p>Cross-industry standards plus the major sector overlays that matter in practice.</p>
+              <span className="signal-badge">Pillars</span>
+              <h3>{handbookPillars.length} handbook pillars</h3>
+              <p>Governance, risk management, recovery and resolution, reporting, and the business model pillars.</p>
             </article>
             <article className="signal-card">
-              <span className="signal-badge">AI risk</span>
-              <h3>{aiControls} AI-linked controls</h3>
-              <p>Board oversight, vendor concentration, resilience, and security all sit in the same frame.</p>
+              <span className="signal-badge">Standards</span>
+              <h3>{apraClauseAtlas.length} standards</h3>
+              <p>The app now opens each APRA standard as a browsable document with section-level navigation.</p>
             </article>
             <article className="signal-card">
-              <span className="signal-badge">Evidence</span>
-              <h3>{controlBullets} concrete requirements</h3>
-              <p>The app turns standards language into things you can actually collect, test, and show APRA.</p>
+              <span className="signal-badge">Clauses</span>
+              <h3>{allClauseCount} numbered clauses</h3>
+              <p>Each clause is parseable, searchable, and tied back to controls, evidence, and board questions.</p>
             </article>
             <article className="signal-card">
-              <span className="signal-badge">Sector overlays</span>
-              <h3>{sectorCards} regulated-entity paths</h3>
-              <p>ADI, insurer, superannuation, and private health insurance lenses all stay visible.</p>
+              <span className="signal-badge">Sections</span>
+              <h3>{allSectionCount} section groups</h3>
+              <p>Authority, application, interpretation, operative obligations, appendices, and attachments stay visible.</p>
             </article>
           </div>
         </div>
@@ -119,20 +177,20 @@ export function CompendiumExplorer() {
           <div className="panel stats-panel compact">
             <div className="metric-stack">
               <div className="metric-row">
-                <span className="metric-label">Publication updates</span>
+                <span className="metric-label">Latest APRA publications</span>
                 <span className="metric-value">{publicationHighlights.length}</span>
               </div>
               <div className="metric-row">
-                <span className="metric-label">Cross-industry standards</span>
-                <span className="metric-value">6</span>
+                <span className="metric-label">Most clause-dense standard</span>
+                <span className="metric-value">CPS 510</span>
               </div>
               <div className="metric-row">
-                <span className="metric-label">Sector overlays</span>
-                <span className="metric-value">4</span>
+                <span className="metric-label">Current pillar</span>
+                <span className="metric-value">{selectedPillar.title}</span>
               </div>
               <div className="metric-row">
-                <span className="metric-label">Board questions</span>
-                <span className="metric-value">{boardQuestions.length}</span>
+                <span className="metric-label">Visible standards</span>
+                <span className="metric-value">{visibleStandards.length}</span>
               </div>
             </div>
           </div>
@@ -153,41 +211,319 @@ export function CompendiumExplorer() {
           <div className="panel compact focus-panel">
             <div className="panel-title-row">
               <Sparkles size={18} />
-              <h2>Latest APRA signal</h2>
+              <h2>Handbook framing</h2>
             </div>
             <p className="prose">
-              APRA says governance, risk management, assurance, and operational resilience are not
-              keeping pace with AI adoption. That is the operating problem this app solves.
+              The Prudential Handbook is the navigator. The standards are the obligations. The clauses are
+              what the entity needs to satisfy and evidence in practice.
             </p>
           </div>
         </aside>
       </section>
 
-      <section className="section intro-grid" id="overview">
+      <section className="section intro-grid" id="handbook">
         <article className="panel intro-card">
-          <p className="eyebrow">The short version</p>
-          <h2>Make the control story provable</h2>
+          <p className="eyebrow">The handbook map</p>
+          <h2>Use the handbook to orient the work</h2>
           <p className="prose">
-            APRA does not need a manifesto. It needs a clear chain from board oversight to control
-            owner to evidence. If you cannot show the chain, the control does not really exist.
+            APRA organises its prudential framework into pillars. All industries share governance, risk management,
+            recovery and resolution, and reporting. Banking and insurance also bring financial resilience, while
+            superannuation uses the business operations pillar.
           </p>
         </article>
-        <article className="panel intro-card">
-          <p className="eyebrow">The AI problem</p>
-          <h2>AI crosses every control line at once</h2>
-          <p className="prose">
-            One use case can touch cyber, privacy, procurement, third-party reliance, data quality,
-            operational risk, remuneration, and board oversight. A single control owner is not enough.
-          </p>
+
+        <article className="panel handbook-summary-card">
+          <div className="panel-title-row">
+            <Layers3 size={18} />
+            <h2>How APRA groups the obligations</h2>
+          </div>
+          <ul className="mini-list tight">
+            <li>Core standards set foundational requirements.</li>
+            <li>Supporting standards add more detail for narrower risks or industries.</li>
+            <li>Guidance lives in practice guides, letters, FAQs, and information papers.</li>
+            <li>The site now treats the handbook as the first filter, not an afterthought.</li>
+          </ul>
         </article>
-        <article className="panel intro-card">
-          <p className="eyebrow">The new governance line</p>
-          <h2>APRA wants stronger boards, not just more reporting</h2>
-          <p className="prose">
-            The governance review is about clearer accountability, skills, conflicts, and fit and proper
-            discipline. The AI letter shows why that matters right now.
+      </section>
+
+      <section className="section pillar-grid-section">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Choose a pillar</p>
+            <h2>Switch the site around APRA's framework, not around random topic cards</h2>
+          </div>
+          <p className="section-lead">
+            The active pillar filters the standards list and the clause atlas below. Click a pillar to reframe the whole
+            view.
           </p>
-        </article>
+        </div>
+
+        <div className="pillar-grid">
+          {handbookPillars.map((item) => {
+            const active = item.id === pillar;
+            return (
+              <button
+                className={active ? "panel pillar-card active" : "panel pillar-card"}
+                key={item.id}
+                onClick={() => {
+                  setPillar(item.id);
+                  const nextStandard = apraClauseAtlas.find((entry) => entry.pillar === item.id)?.id ?? apraClauseAtlas[0].id;
+                  setStandardId(nextStandard);
+                  setActiveClause("");
+                  setQuery("");
+                }}
+                type="button"
+              >
+                <div className="library-card-head">
+                  <span className="signal-badge">{item.standards.length ? `${item.standards.length} standards` : "framework"}</span>
+                  <span className="category-tag">{item.id.replace(/-/g, " ")}</span>
+                </div>
+                <h3>{item.title}</h3>
+                <p className="prose">{item.summary}</p>
+                <p className="pillar-note">{item.note}</p>
+                <div className="pillar-standard-row">
+                  {item.standards.length ? (
+                    item.standards.map((standard) => (
+                      <span className="pill" key={standard}>
+                        {standard.toUpperCase()}
+                      </span>
+                    ))
+                  ) : (
+                    <span className="pill">cross-industry spine</span>
+                  )}
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="section" id="clauses">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">Clause atlas</p>
+            <h2>Browse the APRA standard clauses in a live document view</h2>
+          </div>
+          <p className="section-lead">
+            Search runs across the standard title, section headings, clause numbers, and the clause text itself.
+          </p>
+        </div>
+
+        <div className="library-tools panel compact clause-tools">
+          <div className="category-bar" aria-label="Select regulated entity">
+            {handbookPillars.map((item) => (
+              <button
+                aria-pressed={item.id === pillar}
+                className={item.id === pillar ? "category-chip active" : "category-chip"}
+                key={item.id}
+                onClick={() => {
+                  setPillar(item.id);
+                  const nextStandard = apraClauseAtlas.find((entry) => entry.pillar === item.id)?.id ?? apraClauseAtlas[0].id;
+                  setStandardId(nextStandard);
+                  setActiveClause("");
+                }}
+                type="button"
+              >
+                <Landmark size={14} />
+                <span>{item.title}</span>
+              </button>
+            ))}
+          </div>
+
+          <label className="search-box" htmlFor="apra-search">
+            <Search size={16} />
+            <input
+              id="apra-search"
+              name="apra-search"
+              placeholder="Search clause text, section headings, or APRA reference numbers"
+              value={query}
+              onChange={(event) => {
+                setQuery(event.target.value);
+                setActiveClause("");
+              }}
+            />
+          </label>
+
+          <div className="results-note clause-results-note" aria-live="polite">
+            {visibleStandards.length} standards visible, {selectedStandard.sectionCount} sections in the open standard, {countClauses(selectedStandard)} clauses inside it.
+            {query ? (
+              <button className="text-button" onClick={() => setQuery("")} type="button">
+                Clear search
+              </button>
+            ) : null}
+          </div>
+        </div>
+
+        <div className="clause-shell">
+          <aside className="panel clause-rail">
+            <div className="panel-title-row">
+              <FileText size={18} />
+              <h2>Standards in this pillar</h2>
+            </div>
+            <div className="standard-stack">
+              {visibleStandards.length ? (
+                visibleStandards.map((entry) => {
+                  const active = entry.id === selectedStandard.id;
+                  return (
+                    <button
+                      className={active ? "standard-chip active" : "standard-chip"}
+                      key={entry.id}
+                      onClick={() => {
+                        setStandardId(entry.id);
+                        setActiveClause("");
+                      }}
+                      type="button"
+                    >
+                      <div className="standard-chip-top">
+                        <strong>{entry.code}</strong>
+                        <span>{countClauses(entry)} clauses</span>
+                      </div>
+                      <span>{entry.title}</span>
+                    </button>
+                  );
+                })
+              ) : (
+                <div className="empty-state compact">
+                  <p>No standards matched this search in the current pillar.</p>
+                  <p>Clear the search or choose a different pillar.</p>
+                </div>
+              )}
+            </div>
+          </aside>
+
+          <article className="panel clause-panel">
+            <div className="clause-panel-head">
+              <div>
+                <div className="library-card-head">
+                  <span className="signal-badge">{selectedStandard.code}</span>
+                  <span className="category-tag">{selectedPillar.title}</span>
+                </div>
+                <h3>{selectedStandard.title}</h3>
+                <p className="prose">{selectedStandard.summary}</p>
+              </div>
+              <div className="clause-panel-links">
+                <a href={selectedStandard.href} rel="noreferrer" target="_blank">
+                  Open APRA source
+                  <ArrowUpRight size={14} />
+                </a>
+                <a href="#handbook">
+                  Back to handbook
+                </a>
+              </div>
+            </div>
+
+            {selectedOverview ? (
+              <div className="overview-grid">
+                <div>
+                  <h4 className="category-tag">What APRA expects</h4>
+                  <ul className="mini-list">
+                    {selectedOverview.whatAPRAExpects.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="category-tag">Controls to implement</h4>
+                  <ul className="mini-list">
+                    {selectedOverview.practicalControls.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="category-tag">Evidence to keep</h4>
+                  <ul className="mini-list">
+                    {selectedOverview.evidence.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ) : null}
+
+            <div className="clause-sections">
+              {filteredSections.length ? (
+                filteredSections.map((section, sectionIndex) => {
+                  const defaultOpen =
+                    !query && sectionIndex < 3 ||
+                    section.items.some((item) => clauseKey(selectedStandard.id, item.id) === activeClause);
+                  return (
+                    <details className="clause-section" key={`${selectedStandard.id}-${section.title}`} open={defaultOpen}>
+                      <summary>
+                        <div>
+                          <strong>{section.title}</strong>
+                          <span>{section.items.length} clauses</span>
+                        </div>
+                        <span className="summary-hint">Expand section</span>
+                      </summary>
+                      <div className="clause-grid">
+                        {section.items.map((item) => {
+                          const active = clauseKey(selectedStandard.id, item.id) === activeClause || (!activeClause && sectionIndex === 0 && item === section.items[0]);
+                          return (
+                            <button
+                              className={active ? "clause-card active" : "clause-card"}
+                              key={item.id}
+                              onClick={() => setActiveClause(clauseKey(selectedStandard.id, item.id))}
+                              type="button"
+                            >
+                              <div className="clause-card-head">
+                                <span className="signal-badge">Clause {item.number}</span>
+                                <span className="category-tag">{section.title}</span>
+                              </div>
+                              <p>{clauseExcerpt(item.text)}</p>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </details>
+                  );
+                })
+              ) : (
+                <div className="empty-state">
+                  <h4>No clauses matched.</h4>
+                  <p>Try a broader search or switch to another standard.</p>
+                </div>
+              )}
+            </div>
+
+            {activeClauseItem ? (
+              <div className="clause-detail panel compact">
+                <div className="panel-title-row">
+                  <ShieldCheck size={18} />
+                  <h2>Selected clause</h2>
+                </div>
+                <div className="clause-detail-head">
+                  <span className="signal-badge">Clause {activeClauseItem.number}</span>
+                  <span className="category-tag">{activeClauseItem.section}</span>
+                </div>
+                <p className="clause-detail-text">{activeClauseItem.text}</p>
+                {selectedOverview ? (
+                  <div className="clause-detail-grid">
+                    <div>
+                      <h4 className="category-tag">What this means for AI</h4>
+                      <ul className="mini-list">
+                        {selectedOverview.aiImplications.map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="category-tag">Source links</h4>
+                      <div className="link-row wrap">
+                        {selectedOverview.links.map((link) => (
+                          <a href={link.href} key={link.label} rel="noreferrer" target="_blank">
+                            {link.label}
+                            <ArrowUpRight size={14} />
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                ) : null}
+              </div>
+            ) : null}
+          </article>
+        </div>
       </section>
 
       <section className="section" id="publications">
@@ -197,8 +533,7 @@ export function CompendiumExplorer() {
             <h2>The publications that change how you should run the controls</h2>
           </div>
           <p className="section-lead">
-            These are the documents to brief the board on first. They change the operating model, not
-            just the language.
+            These are the documents to brief the board on first. They change the operating model, not just the language.
           </p>
         </div>
 
@@ -239,123 +574,6 @@ export function CompendiumExplorer() {
         </div>
       </section>
 
-      <section className="section" id="standards">
-        <div className="section-heading">
-          <div>
-            <p className="eyebrow">Control library</p>
-            <h2>The standards crosswalk, filtered by entity and topic</h2>
-          </div>
-          <p className="section-lead">
-            Choose the entity type you care about, then trim the list by topic. Search works across
-            standards, controls, evidence, and AI implications.
-          </p>
-        </div>
-
-        <div className="library-tools panel compact">
-          <div className="category-bar" aria-label="Select regulated entity">
-            {audienceOptions.map((item) => (
-              <button
-                aria-pressed={audience === item.id}
-                className={audience === item.id ? "category-chip active" : "category-chip"}
-                key={item.id}
-                onClick={() => setAudience(item.id)}
-                type="button"
-              >
-                <Landmark size={14} />
-                <span>{item.label}</span>
-              </button>
-            ))}
-          </div>
-
-          <div className="category-bar" aria-label="Filter by topic">
-            {topicOptions.map((item) => (
-              <button
-                aria-pressed={topic === item.id}
-                className={topic === item.id ? "category-chip active" : "category-chip"}
-                key={item.id}
-                onClick={() => setTopic(item.id)}
-                type="button"
-              >
-                <Filter size={14} />
-                {item.label}
-              </button>
-            ))}
-          </div>
-
-          <label className="search-box" htmlFor="apra-search">
-            <Search size={16} />
-            <input
-              id="apra-search"
-              name="apra-search"
-              placeholder="Search standards, controls, evidence, or APRA publication references"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-            />
-          </label>
-
-          <div className="results-note" aria-live="polite">
-            {filteredControls.length} of {controlLibrary.length} control blocks shown
-          </div>
-        </div>
-
-        <div className="library-grid">
-          {filteredControls.map((card) => (
-            <article className={`panel library-card ${accentClass[card.accent ?? "teal"]}`} key={card.id}>
-              <div className="library-card-head">
-                <span className="signal-badge">{card.standard}</span>
-                <span className="category-tag">{card.audience.join(" / ")}</span>
-              </div>
-              <h3>{card.title}</h3>
-              <p className="prose">{card.summary}</p>
-
-              <div className="mini-panel-list">
-                <div>
-                  <h4 className="category-tag">What APRA expects</h4>
-                  <ul className="mini-list">
-                    {card.whatAPRAExpects.map((point) => (
-                      <li key={point}>{point}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="category-tag">Controls to implement</h4>
-                  <ul className="mini-list">
-                    {card.practicalControls.map((point) => (
-                      <li key={point}>{point}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="category-tag">Evidence to keep</h4>
-                  <ul className="mini-list">
-                    {card.evidence.map((point) => (
-                      <li key={point}>{point}</li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="category-tag">AI implications</h4>
-                  <ul className="mini-list">
-                    {card.aiImplications.map((point) => (
-                      <li key={point}>{point}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-
-              <div className="link-row">
-                {card.links.map((link) => (
-                  <a href={link.href} key={link.label} rel="noreferrer" target="_blank">
-                    {link.label}
-                    <ArrowUpRight size={14} />
-                  </a>
-                ))}
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
-
       <section className="section grid-two-wide" id="plan">
         <article className="panel roadmap-panel">
           <div className="panel-title-row">
@@ -384,25 +602,34 @@ export function CompendiumExplorer() {
 
         <article className="panel live-panel">
           <div className="panel-title-row">
-            <ShieldCheck size={18} />
-            <h2>Board pack structure that survives scrutiny</h2>
+            <BadgeCheck size={18} />
+            <h2>What good looks like</h2>
           </div>
           <ul className="bullets">
             <li>One page summary with the use-case inventory, criticality, and risk tier.</li>
-            <li>One page on the standard crosswalk with named owners and due dates.</li>
+            <li>One page on the clause crosswalk with named owners and due dates.</li>
             <li>One page on incidents, exceptions, concentration, and remediation.</li>
             <li>One page on vendor dependencies, exit paths, and manual fallback.</li>
             <li>One page on what changed since the last meeting.</li>
           </ul>
 
           <div className="panel-title-row" style={{ marginTop: 18 }}>
-            <BadgeCheck size={18} />
-            <h2>What good looks like</h2>
+            <Users size={18} />
+            <h2>Board challenge</h2>
           </div>
-          <p className="prose">
-            The board can explain the AI inventory, the top risks, the mitigation status, the fallback
-            path, and the next review date without reading a policy deck.
-          </p>
+          <div className="question-stack compact">
+            {boardQuestions.slice(0, 3).map((item) => (
+              <details className="question-item" key={item.question}>
+                <summary>
+                  <span className="panel-title-row">
+                    <Users size={16} />
+                    {item.question}
+                  </span>
+                </summary>
+                <p>{item.answerFrame}</p>
+              </details>
+            ))}
+          </div>
         </article>
       </section>
 
@@ -439,8 +666,8 @@ export function CompendiumExplorer() {
             <h2>Use this app as the briefing layer, not the finish line</h2>
           </div>
           <p className="prose">
-            The next useful step is to turn this into a working board pack, control register, and
-            evidence checklist for the exact entity type you care about.
+            The next useful step is to turn this into a working board pack, control register, and evidence checklist
+            for the exact entity type you care about.
           </p>
         </div>
       </section>
