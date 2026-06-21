@@ -1,5 +1,42 @@
 [
   {
+    "id": "S0055",
+    "title": "Technology-driven operations and strategic management for high-performance global supply chain ecosystems",
+    "authors": [
+      "Ahmed Olasunkanmi Tijani",
+      "Chukwuebuka Umeh",
+      "Taiwo Ruth Owoeye",
+      "Arti Raikwar",
+      "Stella Eloho Adeusi"
+    ],
+    "venue": "World Journal of Advanced Research and Reviews",
+    "publishedAt": "2026-06-18",
+    "url": "https://doi.org/10.30574/wjarr.2026.30.3.1455",
+    "doi": "10.30574/wjarr.2026.30.3.1455",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "The accelerating convergence of digital technologies with supply chain operations has fundamentally redefined the parameters of global competitive advantage. This systematic review examines how technology-driven operational frameworks and strategic management paradigms jointly enable high-performance global supply chain ecosystems.",
+    "discoveredAt": "2026-06-21T15:15:03.124Z"
+  },
+  {
+    "id": "S0056",
+    "title": "VERIFY-DD: An Evidence-Grounded Agentic AI Framework for Hallucination Detection and Mitigation in LLM-Assisted Drug Discovery",
+    "authors": [
+      "Manjunath D R",
+      "Pallavi G B"
+    ],
+    "venue": "International Journal of Drug Delivery Technology",
+    "publishedAt": "2026-06-17",
+    "url": "https://doi.org/10.25258/ijddt.16.54s.157",
+    "doi": "10.25258/ijddt.16.54s.157",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Recent 2025-2026 journal literature shows rapid progress in AI/ML-driven drug discovery, including domain-adapted druganalysis large language models (LLMs), phenotype-aware therapeutic-effect prediction, multimodal biomedical foundation models, chemical language models, and early agentic systems for modular discovery workflows. However, these advances do not automatically solve the problem of scientific faithfulness.",
+    "discoveredAt": "2026-06-21T15:15:03.124Z"
+  },
+  {
     "id": "S0045",
     "title": "The CMA Agentic Platform: Autonomous Asset Verification and Algorithmic Auditor Governance",
     "authors": [
