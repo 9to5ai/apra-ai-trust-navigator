@@ -1,5 +1,21 @@
 [
   {
+    "id": "S0057",
+    "title": "Developing Decision Integrity Observability Frameworks for Detecting Governance Failures Across AI-Enabled Public Health Emergency Response Systems",
+    "authors": [
+      "Pearl"
+    ],
+    "venue": "International Journal of Computer Applications Technology and Research",
+    "publishedAt": "2026-06-21",
+    "url": "https://doi.org/10.7753/ijcatr1212.1031",
+    "doi": "10.7753/ijcatr1212.1031",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Public health emergencies increasingly rely on interconnected artificial intelligence systems to generate epidemiological forecasts, prioritize interventions, allocate scarce resources, and coordinate multi-agency response actions.However, failures during crises rarely originate from a single algorithmic error; they emerge from cumulative governance breakdowns embedded within decision pipelines, including corrupted data lineage, policy-rule divergence, undocumented model updates, fragmented accountability chains, a",
+    "discoveredAt": "2026-06-22T15:15:01.473Z"
+  },
+  {
     "id": "S0055",
     "title": "Technology-driven operations and strategic management for high-performance global supply chain ecosystems",
     "authors": [

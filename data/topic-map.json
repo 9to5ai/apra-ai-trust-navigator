@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T15:15:05.990Z",
+  "updatedAt": "2026-06-22T15:15:03.821Z",
   "clusters": [
     {
       "id": "evaluation",
@@ -21,6 +21,7 @@
       "id": "monitoring",
       "label": "Monitoring and telemetry",
       "sourceIds": [
+        "S0057",
         "S0051"
       ],
       "hypothesisIds": [
@@ -71,6 +72,7 @@
       "id": "governance",
       "label": "Governance evidence",
       "sourceIds": [
+        "S0057",
         "S0045",
         "S0046",
         "S0048",
