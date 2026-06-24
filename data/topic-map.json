@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T15:15:05.757Z",
+  "updatedAt": "2026-06-24T15:15:11.427Z",
   "clusters": [
     {
       "id": "evaluation",
@@ -33,6 +33,7 @@
       "id": "security",
       "label": "Security and agent risk",
       "sourceIds": [
+        "S0058",
         "S0056",
         "S0045",
         "S0046",
@@ -61,8 +62,7 @@
         "S0004",
         "S0005",
         "S0006",
-        "S0008",
-        "S0011"
+        "S0008"
       ],
       "hypothesisIds": [
         "Hfd72d66f"
@@ -72,6 +72,7 @@
       "id": "governance",
       "label": "Governance evidence",
       "sourceIds": [
+        "S0058",
         "S0057",
         "S0045",
         "S0046",

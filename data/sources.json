@@ -1,5 +1,22 @@
 [
   {
+    "id": "S0058",
+    "title": "Designing Secure Composite AI Systems: Cross-Domain Holistic Threat Model and Mitigation Framework",
+    "authors": [
+      "Sherali Zeadally",
+      "Aditya K. Sood"
+    ],
+    "venue": "Applied Cybersecurity & Internet Governance",
+    "publishedAt": "2026-06-19",
+    "url": "https://doi.org/10.60097/acig/221578",
+    "doi": "10.60097/acig/221578",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Composite artificial intelligence (AI) systems are increasingly deployed in mission-critical environments, such as defence, aerospace, industrial control systems, and critical infrastructure, where they enable adaptive, autonomous, and real-time decision-making. However, the growing complexity of these systems introduces multilayered security risks that extend far beyond the assumptions of traditional, component-centric security models.",
+    "discoveredAt": "2026-06-24T15:15:06.737Z"
+  },
+  {
     "id": "S0057",
     "title": "Developing Decision Integrity Observability Frameworks for Detecting Governance Failures Across AI-Enabled Public Health Emergency Response Systems",
     "authors": [
