@@ -1,0 +1,179 @@
+{
+  "date": "2026-06-26",
+  "runStartedAt": "2026-06-25T15:15:03.554Z",
+  "runCompletedAt": "2026-06-25T15:15:06.250Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-06-24T15:15:11.422Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0059",
+      "title": "AI Risk Governance in High-Reliability Enterprises: Integrating CPMAI into Enterprise Risk Management",
+      "authors": [
+        "Fatma AlMulla",
+        "Aaesha Al Shehhi",
+        "Mounir El Khatib"
+      ],
+      "venue": "International Journal of Business Analytics and Security (IJBAS)",
+      "publishedAt": "2026-06-23",
+      "url": "https://doi.org/10.54489/ijbas.v6i1.606",
+      "doi": "10.54489/ijbas.v6i1.606",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.74,
+      "summary": "This study has examined how ADNOC can enhance risk governance and AI program reliability by adopting the Cognitive Project Management for AI (CPMAI) framework all over AI lifecycles. The research addresses gaps found in the Virtual lab assessment that has shown weakness in the vendor oversight, operational tracking, data lineage and model evaluations.",
+      "discoveredAt": "2026-06-25T15:15:03.554Z"
+    },
+    {
+      "id": "S0060",
+      "title": "Agentic AI and Large Language Models for Autonomous IoT Cybersecurity: A Systematic Survey, Taxonomy, and Research Roadmap",
+      "authors": [
+        "Vinoth Nageshwaran",
+        "Soundararajan Ezekiel"
+      ],
+      "venue": "Electronics",
+      "publishedAt": "2026-06-22",
+      "url": "https://doi.org/10.3390/electronics15122740",
+      "doi": "10.3390/electronics15122740",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.6599999999999999,
+      "summary": "Conventional signature-based defenses no longer protect the heterogeneous, large-scale infrastructures that the Internet of Things (IoT) now constitutes. Large language models (LLMs) and agentic artificial intelligence (AI)—systems that autonomously perceive, reason, plan, and act—open a path to self-defending IoT ecosystems, but the integrating literature remains fragmented.",
+      "discoveredAt": "2026-06-25T15:15:03.554Z"
+    },
+    {
+      "id": "S0061",
+      "title": "AI-Enabled Airline Digital Core Modernization: A KPI-Governed Design Science Framework for Intelligent and Predictive Airline Operations",
+      "authors": [
+        "SeyyedAbdolHojjat MoghadasNian",
+        "Akbar KaramZadeh"
+      ],
+      "publishedAt": "2026-06-20",
+      "url": "https://doi.org/10.24108/preprints-3115618",
+      "doi": "10.24108/preprints-3115618",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5800000000000001,
+      "summary": "Airline digital transformation is increasingly constrained not by the absence of technology projects, but by the absence of a governed digital core that connects enterprise architecture, trusted data, redesigned workflows, artificial intelligence (AI), cyber resilience, KPI accountability, and leadership execution. Existing airline studies have examined digital transformation, retailing, predictive maintenance, AI-supported disruption management, enterprise architecture, cybersecurity, and performance measurement, ",
+      "discoveredAt": "2026-06-25T15:15:03.554Z"
+    },
+    {
+      "id": "S0062",
+      "title": "Improving FAIRness of Geospatial data using Large Language Models",
+      "authors": [
+        "Blessing Kavhu",
+        "Ville Mäkinen",
+        "Panu Muhli",
+        "Juha Oksanen"
+      ],
+      "venue": "Scientific Data",
+      "publishedAt": "2026-06-23",
+      "url": "https://doi.org/10.1038/s41597-026-07575-8",
+      "doi": "10.1038/s41597-026-07575-8",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5800000000000001,
+      "summary": "The FAIR principles- Findability, Accessibility, Interoperability and Reusability have become central to enhancing the value, transparency, and longevity of scientific data. Yet in the geospatial domain, implementing FAIR practices often remains uneven, reflecting gaps between formal standards compliance and practical usability within complex data infrastructures.",
+      "discoveredAt": "2026-06-25T15:15:03.554Z"
+    },
+    {
+      "id": "S0063",
+      "title": "Context Matters: Auditing Gender Bias in T2I Generation through Risk-Tiered Use-Case Profiles",
+      "authors": [
+        "Jose Luna",
+        "Yankun Wu",
+        "Xiaofei Xie",
+        "Noa García"
+      ],
+      "publishedAt": "2026-06-23",
+      "url": "https://doi.org/10.1145/3805689.3812261",
+      "doi": "10.1145/3805689.3812261",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Text-to-image (T2I) generative models are increasingly used to produce content for education, media, and public-facing communication, and are starting to be integrated into higher-impact pipelines. Since generated images tend to reinforce stereotypes, producing representational erasure via \"default\" depictions and shaping perceptions of who belongs in certain roles, a growing body of work has proposed metrics to quantify gender bias in T2I outputs.",
+      "discoveredAt": "2026-06-25T15:15:03.554Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0059",
+      "claim": "AI Risk Governance in High-Reliability Enterprises: Integrating CPMAI into Enterprise Risk Management adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0060",
+      "claim": "Agentic AI and Large Language Models for Autonomous IoT Cybersecurity: A Systematic Survey, Taxonomy, and Research Roadmap adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0061",
+      "claim": "AI-Enabled Airline Digital Core Modernization: A KPI-Governed Design Science Framework for Intelligent and Predictive Airline Operations adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0062",
+      "claim": "Improving FAIRness of Geospatial data using Large Language Models adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0063",
+      "claim": "Context Matters: Auditing Gender Bias in T2I Generation through Risk-Tiered Use-Case Profiles adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 5 relevant artifacts clustered around models, airline, digital, enterprise. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-06-25T15:15:06.200Z",
+      "updatedAt": "2026-06-25T15:15:06.200Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-06-25T15:15:06.200Z",
+      "updatedAt": "2026-06-25T15:15:06.200Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}

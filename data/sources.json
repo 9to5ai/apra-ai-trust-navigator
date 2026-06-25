@@ -1,5 +1,93 @@
 [
   {
+    "id": "S0059",
+    "title": "AI Risk Governance in High-Reliability Enterprises: Integrating CPMAI into Enterprise Risk Management",
+    "authors": [
+      "Fatma AlMulla",
+      "Aaesha Al Shehhi",
+      "Mounir El Khatib"
+    ],
+    "venue": "International Journal of Business Analytics and Security (IJBAS)",
+    "publishedAt": "2026-06-23",
+    "url": "https://doi.org/10.54489/ijbas.v6i1.606",
+    "doi": "10.54489/ijbas.v6i1.606",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.74,
+    "summary": "This study has examined how ADNOC can enhance risk governance and AI program reliability by adopting the Cognitive Project Management for AI (CPMAI) framework all over AI lifecycles. The research addresses gaps found in the Virtual lab assessment that has shown weakness in the vendor oversight, operational tracking, data lineage and model evaluations.",
+    "discoveredAt": "2026-06-25T15:15:03.554Z"
+  },
+  {
+    "id": "S0060",
+    "title": "Agentic AI and Large Language Models for Autonomous IoT Cybersecurity: A Systematic Survey, Taxonomy, and Research Roadmap",
+    "authors": [
+      "Vinoth Nageshwaran",
+      "Soundararajan Ezekiel"
+    ],
+    "venue": "Electronics",
+    "publishedAt": "2026-06-22",
+    "url": "https://doi.org/10.3390/electronics15122740",
+    "doi": "10.3390/electronics15122740",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Conventional signature-based defenses no longer protect the heterogeneous, large-scale infrastructures that the Internet of Things (IoT) now constitutes. Large language models (LLMs) and agentic artificial intelligence (AI)—systems that autonomously perceive, reason, plan, and act—open a path to self-defending IoT ecosystems, but the integrating literature remains fragmented.",
+    "discoveredAt": "2026-06-25T15:15:03.554Z"
+  },
+  {
+    "id": "S0061",
+    "title": "AI-Enabled Airline Digital Core Modernization: A KPI-Governed Design Science Framework for Intelligent and Predictive Airline Operations",
+    "authors": [
+      "SeyyedAbdolHojjat MoghadasNian",
+      "Akbar KaramZadeh"
+    ],
+    "publishedAt": "2026-06-20",
+    "url": "https://doi.org/10.24108/preprints-3115618",
+    "doi": "10.24108/preprints-3115618",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Airline digital transformation is increasingly constrained not by the absence of technology projects, but by the absence of a governed digital core that connects enterprise architecture, trusted data, redesigned workflows, artificial intelligence (AI), cyber resilience, KPI accountability, and leadership execution. Existing airline studies have examined digital transformation, retailing, predictive maintenance, AI-supported disruption management, enterprise architecture, cybersecurity, and performance measurement, ",
+    "discoveredAt": "2026-06-25T15:15:03.554Z"
+  },
+  {
+    "id": "S0062",
+    "title": "Improving FAIRness of Geospatial data using Large Language Models",
+    "authors": [
+      "Blessing Kavhu",
+      "Ville Mäkinen",
+      "Panu Muhli",
+      "Juha Oksanen"
+    ],
+    "venue": "Scientific Data",
+    "publishedAt": "2026-06-23",
+    "url": "https://doi.org/10.1038/s41597-026-07575-8",
+    "doi": "10.1038/s41597-026-07575-8",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "The FAIR principles- Findability, Accessibility, Interoperability and Reusability have become central to enhancing the value, transparency, and longevity of scientific data. Yet in the geospatial domain, implementing FAIR practices often remains uneven, reflecting gaps between formal standards compliance and practical usability within complex data infrastructures.",
+    "discoveredAt": "2026-06-25T15:15:03.554Z"
+  },
+  {
+    "id": "S0063",
+    "title": "Context Matters: Auditing Gender Bias in T2I Generation through Risk-Tiered Use-Case Profiles",
+    "authors": [
+      "Jose Luna",
+      "Yankun Wu",
+      "Xiaofei Xie",
+      "Noa García"
+    ],
+    "publishedAt": "2026-06-23",
+    "url": "https://doi.org/10.1145/3805689.3812261",
+    "doi": "10.1145/3805689.3812261",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Text-to-image (T2I) generative models are increasingly used to produce content for education, media, and public-facing communication, and are starting to be integrated into higher-impact pipelines. Since generated images tend to reinforce stereotypes, producing representational erasure via \"default\" depictions and shaping perceptions of who belongs in certain roles, a growing body of work has proposed metrics to quantify gender bias in T2I outputs.",
+    "discoveredAt": "2026-06-25T15:15:03.554Z"
+  },
+  {
     "id": "S0058",
     "title": "Designing Secure Composite AI Systems: Cross-Domain Holistic Threat Model and Mitigation Framework",
     "authors": [
