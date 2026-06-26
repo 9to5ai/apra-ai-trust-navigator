@@ -1,5 +1,20 @@
 [
   {
+    "id": "S0064",
+    "title": "Quantum–AI Earth Observation Intelligence: Satellite Data Analytics for Climate, Security and Sustainable Development",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "publishedAt": "2026-06-25",
+    "url": "https://doi.org/10.62311/nesx/rb10j-978-81-687760-0-5",
+    "doi": "10.62311/nesx/rb10j-978-81-687760-0-5",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Abstract Quantum-AI Earth Observation Intelligence examines how satellite data analytics can be transformed into a rigorous, accountable and globally adaptable research system for climate action, environmental security and sustainable development. The manuscript develops a doctoral-level framework that integrates measurement theory, uncertainty modeling, causal inference, trustworthy machine learning, scalable geospatial engineering and governance design.",
+    "discoveredAt": "2026-06-26T15:15:04.263Z"
+  },
+  {
     "id": "S0059",
     "title": "AI Risk Governance in High-Reliability Enterprises: Integrating CPMAI into Enterprise Risk Management",
     "authors": [
