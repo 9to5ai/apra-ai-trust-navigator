@@ -1,5 +1,25 @@
 [
   {
+    "id": "S0065",
+    "title": "Navigating Privacy in Digital Twin: A Framework for Regulatory Compliance (DTFRC)",
+    "authors": [
+      "Alaa Tolah",
+      "Omar Alghamdi",
+      "Noura M. Aleisa",
+      "Niddal Imam",
+      "Soha Alhelaly"
+    ],
+    "venue": "Arabian Journal for Science and Engineering",
+    "publishedAt": "2026-06-26",
+    "url": "https://doi.org/10.1007/s13369-026-11430-8",
+    "doi": "10.1007/s13369-026-11430-8",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Abstract Digital twin (DT) technology has gained significant adoption across domains such as healthcare, manufacturing, and smart cities due to its ability to mirror physical systems and provide real-time intelligence. However, the extensive collection, processing, and sharing of sensitive personal and operational data within DT systems raise substantial challenges related to privacy, security, and regulatory compliance.",
+    "discoveredAt": "2026-06-28T15:15:00.978Z"
+  },
+  {
     "id": "S0064",
     "title": "Quantum–AI Earth Observation Intelligence: Satellite Data Analytics for Climate, Security and Sustainable Development",
     "authors": [

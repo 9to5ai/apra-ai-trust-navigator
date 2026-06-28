@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T15:15:06.113Z",
+  "updatedAt": "2026-06-28T15:15:03.912Z",
   "clusters": [
     {
       "id": "evaluation",
@@ -37,6 +37,7 @@
       "id": "security",
       "label": "Security and agent risk",
       "sourceIds": [
+        "S0065",
         "S0064",
         "S0059",
         "S0060",
@@ -65,8 +66,7 @@
         "S0021",
         "S0020",
         "S0018",
-        "S0001",
-        "S0002"
+        "S0001"
       ],
       "hypothesisIds": [
         "Hfd72d66f"
