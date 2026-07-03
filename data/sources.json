@@ -1,5 +1,124 @@
 [
   {
+    "id": "S0066",
+    "title": "DFAS-M&amp;amp;A: A Governance Doctrine for Ethical, Explainable, and Sovereign-Sensitive AI Governance in Mergers and Acquisitions",
+    "authors": [
+      "Hasan Alaali"
+    ],
+    "venue": "Risk and Financial Management",
+    "publishedAt": "2026-06-30",
+    "url": "https://doi.org/10.30560/rfm.v7n1p103",
+    "doi": "10.30560/rfm.v7n1p103",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Artificial intelligence (AI) is increasingly being integrated into mergers and acquisitions (M&amp;A), supporting activities such as target valuation, due diligence, risk assessment, transaction screening, and strategic decision-making (PwC, 2022; KPMG, 2023). While these technologies enhance analytical efficiency and enable the processing of large and complex datasets, they also introduce governance challenges that existing M&amp;A governance and regulatory frameworks were not specifically designed to address.",
+    "discoveredAt": "2026-07-03T15:15:01.763Z"
+  },
+  {
+    "id": "S0067",
+    "title": "AI compliance as ROI: Dynamic value preservation in the age of algorithmic governance",
+    "authors": [
+      "Jelena Vujicic"
+    ],
+    "venue": "World Journal of Advanced Research and Reviews",
+    "publishedAt": "2026-06-29",
+    "url": "https://doi.org/10.30574/wjarr.2026.30.3.1763",
+    "doi": "10.30574/wjarr.2026.30.3.1763",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "The rapid adoption of artificial intelligence across financial services, digital platforms, healthcare, and other sectors has prompted increased regulatory attention to algorithmic decision-making, transparency, data governance, and risk management. Existing discussions of AI compliance frequently characterize governance obligations as costs imposed on firms through regulation, enforcement, and litigation risk.",
+    "discoveredAt": "2026-07-03T15:15:01.763Z"
+  },
+  {
+    "id": "S0068",
+    "title": "Generative AI Applications in Network Security, Monitoring, and Traffic Analysis",
+    "authors": [
+      "Shallu Yadav"
+    ],
+    "venue": "International Journal of Advanced Research in Science Communication and Technology",
+    "publishedAt": "2026-06-30",
+    "url": "https://doi.org/10.48175/ijarsct-33287",
+    "doi": "10.48175/ijarsct-33287",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "The accelerating volume, velocity, and sophistication of modern network traffic have exposed the limitations of signature-based and conventional machine-learning defences, which struggle with previously unseen attacks, severe class imbalance, and the scarcity of labelled malicious samples. Generative Artificial Intelligence (Generative AI) has recently emerged as a transformative paradigm that addresses these gaps by learning the underlying distribution of benign and malicious traffic and producing realistic synthe",
+    "discoveredAt": "2026-07-03T15:15:01.763Z"
+  },
+  {
+    "id": "S0069",
+    "title": "Decision-Critical Data Quality Contracts for IoT-Based Elderly Care: Symmetric vs. Asymmetric Enforcement for Fall and Health Deterioration Decisions",
+    "authors": [
+      "Waleed Al Shehri"
+    ],
+    "venue": "Symmetry",
+    "publishedAt": "2026-06-27",
+    "url": "https://doi.org/10.3390/sym18071096",
+    "doi": "10.3390/sym18071096",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.48,
+    "summary": "Continuous detection of critical events such as falls and health deterioration is enabled by Internet of Things (IoT)-enabled monitoring systems in elderly care. However, system reliability is undermined by real-world sensor degradation, which produces high false-alarm rates and missed incidents.",
+    "discoveredAt": "2026-07-03T15:15:01.763Z"
+  },
+  {
+    "id": "S0070",
+    "title": "The preparation gap: IHL, human–machine teaming and assurance in military AI systems",
+    "authors": [
+      "Sahr Muhammedally"
+    ],
+    "venue": "International Review of the Red Cross",
+    "publishedAt": "2026-06-29",
+    "url": "https://doi.org/10.1017/s1816383126101477",
+    "doi": "10.1017/s1816383126101477",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Abstract Artificial Intelligence (AI) systems are increasingly supporting targeting, intelligence analysis and operational planning across military domains, reshaping how commanders use force through human–machine teaming (HMT). HMT offers operational advantages, but risks such as automation bias, adversarial manipulation and degraded performance pose challenges for the ability of deployers to use AI systems in compliance with international humanitarian law (IHL).",
+    "discoveredAt": "2026-07-03T15:15:01.763Z"
+  },
+  {
+    "id": "S0071",
+    "title": "Label leakage unmasked: a trustworthy-AI audit of autism screening models using the CLEAR-RD framework",
+    "authors": [
+      "Boulbaba Ben Ammar",
+      "Walid Karamti"
+    ],
+    "venue": "Frontiers in Public Health",
+    "publishedAt": "2026-06-30",
+    "url": "https://doi.org/10.3389/fpubh.2026.1881829",
+    "doi": "10.3389/fpubh.2026.1881829",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Trustworthy pediatric screening AI needs more than accuracy: label validity, calibration, subgroup robustness, and clinical-scope limits. We propose Clear-Rd ( Clinical Leakage Evaluation and Audit Routine for Rule-Derived labels ), a five-stage framework—Configure, Lift, Evaluate, Audit, Report—and apply it to two public autism-screening datasets—Q-CHAT-10 toddler ( N = 1054) and AQ-10 child/adolescent/adult ( N = 6075)—merged into a unified cohort ( N = 7129); prior studies report accuracies above 95%.",
+    "discoveredAt": "2026-07-03T15:15:01.763Z"
+  },
+  {
+    "id": "S0072",
+    "title": "Automated Repair of TEE Partitioning Issues via DSL-Guided and LLM-Assisted Patching",
+    "authors": [
+      "Chengyan Ma",
+      "Jieke Shi",
+      "Ruidong Han",
+      "Ye Liu",
+      "Feng Li",
+      "Yuqing Niu",
+      "David Lo"
+    ],
+    "venue": "Proceedings of the ACM on software engineering.",
+    "publishedAt": "2026-06-30",
+    "url": "https://doi.org/10.1145/3808207",
+    "doi": "10.1145/3808207",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Trusted Execution Environments (TEEs) provide hardware-based isolation to protect sensitive data and computations from potentially compromised operating systems (OS). However, TEE applications inevitably interact with the untrusted OS through SDK interfaces, and improper partitioning can introduce severe vulnerabilities such as data leakage and code injection.",
+    "discoveredAt": "2026-07-03T15:15:01.763Z"
+  },
+  {
     "id": "S0065",
     "title": "Navigating Privacy in Digital Twin: A Framework for Regulatory Compliance (DTFRC)",
     "authors": [
