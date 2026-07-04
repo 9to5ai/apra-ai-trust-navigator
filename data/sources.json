@@ -1,5 +1,48 @@
 [
   {
+    "id": "S0073",
+    "title": "Ethical and Governance Challenges of AI in Medical Imaging and Diagnostics: A Systematic Survey and Policy Framework Recommendations",
+    "authors": [
+      "Dulani Athukorala",
+      "Khandakar Ahmed",
+      "Raza Nowrozy"
+    ],
+    "venue": "Healthcare",
+    "publishedAt": "2026-07-02",
+    "url": "https://doi.org/10.3390/healthcare14131975",
+    "doi": "10.3390/healthcare14131975",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Background/Objectives: Artificial intelligence (AI) is increasingly embedded within diagnostic imaging workflows, reshaping clinical decision-making, health system governance, and regulatory oversight. While technical advances in radiological AI have accelerated, governance mechanisms have struggled to keep pace with issues of bias, transparency, accountability, and lifecycle oversight.",
+    "discoveredAt": "2026-07-04T15:15:01.790Z"
+  },
+  {
+    "id": "S0074",
+    "title": "Standardised evaluation and monitoring of site-specific AI performance with physical CT phantoms",
+    "authors": [
+      "Ulrich Genske",
+      "Angelo Laudani",
+      "Li Yan",
+      "Yang Peng",
+      "Georg Boening",
+      "Sevtap Tugce Ulas",
+      "M Wagner",
+      "Torsten Diekhoff",
+      "Bernd Hamm",
+      "Paul Jahnke"
+    ],
+    "venue": "medRxiv",
+    "publishedAt": "2026-07-02",
+    "url": "https://doi.org/10.64898/2026.07.01.26357033",
+    "doi": "10.64898/2026.07.01.26357033",
+    "sourceType": "preprint",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Artificial intelligence (AI) applications in computed tomography (CT) imaging require objective and continuous testing, yet standardised methods for this purpose have not been established. Here, we present a framework using physical phantoms for standardised testing and monitoring of AI, demonstrated in liver lesion detection.",
+    "discoveredAt": "2026-07-04T15:15:01.790Z"
+  },
+  {
     "id": "S0066",
     "title": "DFAS-M&amp;amp;A: A Governance Doctrine for Ethical, Explainable, and Sovereign-Sensitive AI Governance in Mergers and Acquisitions",
     "authors": [

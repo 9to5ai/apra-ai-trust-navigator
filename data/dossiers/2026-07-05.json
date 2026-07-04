@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-05",
+  "runStartedAt": "2026-07-04T15:15:01.790Z",
+  "runCompletedAt": "2026-07-04T15:15:05.403Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-07-03T15:15:04.295Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0073",
+      "title": "Ethical and Governance Challenges of AI in Medical Imaging and Diagnostics: A Systematic Survey and Policy Framework Recommendations",
+      "authors": [
+        "Dulani Athukorala",
+        "Khandakar Ahmed",
+        "Raza Nowrozy"
+      ],
+      "venue": "Healthcare",
+      "publishedAt": "2026-07-02",
+      "url": "https://doi.org/10.3390/healthcare14131975",
+      "doi": "10.3390/healthcare14131975",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.6599999999999999,
+      "summary": "Background/Objectives: Artificial intelligence (AI) is increasingly embedded within diagnostic imaging workflows, reshaping clinical decision-making, health system governance, and regulatory oversight. While technical advances in radiological AI have accelerated, governance mechanisms have struggled to keep pace with issues of bias, transparency, accountability, and lifecycle oversight.",
+      "discoveredAt": "2026-07-04T15:15:01.790Z"
+    },
+    {
+      "id": "S0074",
+      "title": "Standardised evaluation and monitoring of site-specific AI performance with physical CT phantoms",
+      "authors": [
+        "Ulrich Genske",
+        "Angelo Laudani",
+        "Li Yan",
+        "Yang Peng",
+        "Georg Boening",
+        "Sevtap Tugce Ulas",
+        "M Wagner",
+        "Torsten Diekhoff",
+        "Bernd Hamm",
+        "Paul Jahnke"
+      ],
+      "venue": "medRxiv",
+      "publishedAt": "2026-07-02",
+      "url": "https://doi.org/10.64898/2026.07.01.26357033",
+      "doi": "10.64898/2026.07.01.26357033",
+      "sourceType": "preprint",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "Artificial intelligence (AI) applications in computed tomography (CT) imaging require objective and continuous testing, yet standardised methods for this purpose have not been established. Here, we present a framework using physical phantoms for standardised testing and monitoring of AI, demonstrated in liver lesion detection.",
+      "discoveredAt": "2026-07-04T15:15:01.790Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0073",
+      "claim": "Ethical and Governance Challenges of AI in Medical Imaging and Diagnostics: A Systematic Survey and Policy Framework Recommendations adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0074",
+      "claim": "Standardised evaluation and monitoring of site-specific AI performance with physical CT phantoms adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "This is preprint evidence and needs corroboration."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 2 relevant artifacts clustered around governance, imaging, standardised, framework. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-07-04T15:15:05.330Z",
+      "updatedAt": "2026-07-04T15:15:05.330Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-07-04T15:15:05.330Z",
+      "updatedAt": "2026-07-04T15:15:05.330Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}
