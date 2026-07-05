@@ -1,5 +1,39 @@
 [
   {
+    "id": "S0075",
+    "title": "Auditing Smart and Sustainable Supply Chains: The Role of Assurance in AI-Driven Decision Systems",
+    "authors": [
+      "Chung-Hao Hsu",
+      "Asif Khan"
+    ],
+    "venue": "IntechOpen eBooks",
+    "publishedAt": "2026-06-27",
+    "url": "https://doi.org/10.5772/intechopen.1016235",
+    "doi": "10.5772/intechopen.1016235",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.74,
+    "summary": "Artificial intelligence, big data analytics, blockchain-enabled traceability, smart contracts, platform-based coordination, robotic process automation, and real-time digital systems are reshaping the governance architecture of contemporary supply chains. In smart and sustainable supply chain environments, managerial decisions concerning procurement, supplier evaluation, logistics optimization, corporate social responsibility reporting, sustainability reporting, carbon estimation, and risk monitoring are mediated by",
+    "discoveredAt": "2026-07-05T15:15:01.778Z"
+  },
+  {
+    "id": "S0076",
+    "title": "From tool to collaborator: rethinking GIScience as GIS becomes agentic and autonomous",
+    "authors": [
+      "Ali Khosravi Kazazi",
+      "Zhenlong Li"
+    ],
+    "venue": "International Journal of Digital Earth",
+    "publishedAt": "2026-07-01",
+    "url": "https://doi.org/10.1080/17538947.2026.2687228",
+    "doi": "10.1080/17538947.2026.2687228",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Geographic Information Systems (GIS) have traditionally been positioned along Wright, Goodchild and Proctor’s continuum of GIS as tool, toolmaking, and GIScience, a framework that treats GIS as primarily executing human-authored intent. This paper argues that agentic and autonomous GIS strains that assumption by moving GIS beyond predefined command execution toward intent interpretation, workflow construction, and iterative procedural revision.",
+    "discoveredAt": "2026-07-05T15:15:01.778Z"
+  },
+  {
     "id": "S0073",
     "title": "Ethical and Governance Challenges of AI in Medical Imaging and Diagnostics: A Systematic Survey and Policy Framework Recommendations",
     "authors": [
