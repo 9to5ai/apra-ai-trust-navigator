@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T15:15:05.851Z",
+  "updatedAt": "2026-07-07T15:15:04.775Z",
   "clusters": [
     {
       "id": "evaluation",
@@ -83,6 +83,7 @@
       "id": "governance",
       "label": "Governance evidence",
       "sourceIds": [
+        "S0078",
         "S0075",
         "S0073",
         "S0066",
@@ -111,8 +112,7 @@
         "S0024",
         "S0025",
         "S0023",
-        "S0019",
-        "S0017"
+        "S0019"
       ],
       "hypothesisIds": [
         "H0001",

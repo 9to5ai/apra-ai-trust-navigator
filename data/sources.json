@@ -1,5 +1,36 @@
 [
   {
+    "id": "S0077",
+    "title": "The Impact of Artificial Intelligence on Trust and Uninterrupted Usage Intention in AI Financial Service: Evidence from Bangladeshi Consumers",
+    "authors": [
+      "Farzana Amin"
+    ],
+    "venue": "Journal of Economics Finance and Management Studies",
+    "publishedAt": "2026-07-04",
+    "url": "https://doi.org/10.47191/jefms/v9-i7-02",
+    "doi": "10.47191/jefms/v9-i7-02",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "In the case of financial services, AI is transforming the industry by offering automated support, one-on-one recommendations, digital payments, fraud detection, and decision-assistance based on data. Nevertheless, the long-term effectiveness of the AI-based financial services relies on consumer trust and the intention to use it constantly.",
+    "discoveredAt": "2026-07-07T15:15:02.020Z"
+  },
+  {
+    "id": "S0078",
+    "title": "Aviation AI Conscience Governance 360 A Design-Science Framework for Accountable, Safety-Critical and Data-Governed Airline AI",
+    "authors": [
+      "SeyyedAbdolHojjat MoghadasNian"
+    ],
+    "publishedAt": "2026-06-28",
+    "url": "https://doi.org/10.24108/preprints-3115683",
+    "doi": "10.24108/preprints-3115683",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Artificial intelligence (AI) is moving from experimental analytics into operational airline decision pathways, including operations control, predictive maintenance, disruption recovery, crew planning, passenger communication, revenue management, safety analytics, procurement and maintenance, repair and overhaul (MRO) logistics. The governance problem is therefore no longer whether AI can support airline performance, but whether AI-enabled recommendations remain safe, lawful, explainable, data-qualified, ethically d",
+    "discoveredAt": "2026-07-07T15:15:02.020Z"
+  },
+  {
     "id": "S0075",
     "title": "Auditing Smart and Sustainable Supply Chains: The Role of Assurance in AI-Driven Decision Systems",
     "authors": [
