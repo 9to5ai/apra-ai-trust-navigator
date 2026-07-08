@@ -1,5 +1,126 @@
 [
   {
+    "id": "S0079",
+    "title": "Governance, risk, and compliance frameworks for AI Security: A review of emerging standards and challenges",
+    "authors": [
+      "Abimbola Filani",
+      "Jochebed Akoto Opoku"
+    ],
+    "venue": "Magna Scientia Advanced Research and Reviews",
+    "publishedAt": "2026-07-07",
+    "url": "https://doi.org/10.30574/msarr.2026.17.2.0120",
+    "doi": "10.30574/msarr.2026.17.2.0120",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.8200000000000001,
+    "summary": "Artificial intelligence (AI) adoption is accelerating across industries, introducing novel governance, risk, and compliance (GRC) challenges that traditional cybersecurity frameworks cannot fully address. Standards such as ISO/IEC 27001 and the NIST Risk Management Framework safeguard IT assets but do not comprehensively mitigate AI-specific risks like adversarial attacks, model drift, and ethical concerns such as fairness and accountability.",
+    "discoveredAt": "2026-07-08T15:15:01.900Z"
+  },
+  {
+    "id": "S0080",
+    "title": "Topological Data Analysis and Graph Intelligence for CyberTech Threat Detection in Digital Economies",
+    "authors": [
+      "Murali Krishna Pasupuleti"
+    ],
+    "publishedAt": "2026-06-30",
+    "url": "https://doi.org/10.62311/nesx/rb2j-978-81-688015-8-5",
+    "doi": "10.62311/nesx/rb2j-978-81-688015-8-5",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "Abstract This manuscript develops an integrated research and governance framework for using topological data analysis and graph intelligence in CyberTech threat detection across digital economies. It treats cybersecurity telemetry not as isolated logs but as relational, temporal and high-dimensional evidence in which adversarial behaviour may appear as abnormal shape, unstable dependency structure, rare graph motifs or unexpected persistence across analytical scales.",
+    "discoveredAt": "2026-07-08T15:15:01.900Z"
+  },
+  {
+    "id": "S0081",
+    "title": "Engineering Challenges toward Level-5 Autonomous Fixed Telecommunications Networks",
+    "authors": [
+      "Mohammad Mustafa",
+      "Mohammed Hussain Moheet",
+      "Mohammed Abdul Moheet"
+    ],
+    "venue": "International Journal for Research in Applied Science and Engineering Technology",
+    "publishedAt": "2026-07-06",
+    "url": "https://doi.org/10.22214/ijraset.2026.84131",
+    "doi": "10.22214/ijraset.2026.84131",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5800000000000001,
+    "summary": "Fixed telecommunications networks are undergoing a fundamental transformation from manually operated infrastructures toward intelligent, autonomous systems capable of self-monitoring, self-diagnosis, self-optimization, and self-healing. While Artificial Intelligence (AI), closed-loop automation, and multi-agent architectures have significantly advanced operational automation, the realization of Level-5 Autonomous Fixed Telecommunications Networks remains an open engineering challenge.",
+    "discoveredAt": "2026-07-08T15:15:01.900Z"
+  },
+  {
+    "id": "S0082",
+    "title": "A Comprehensive Survey of Adversarial Attacks and Defense Strategies in Artificial Intelligence Security",
+    "authors": [
+      "P. Mahalakshmi",
+      "V. Jayalakshmi"
+    ],
+    "venue": "International Journal of Innovative Science and Research Technology (IJISRT)",
+    "publishedAt": "2026-07-04",
+    "url": "https://doi.org/10.38124/ijisrt/26jun1744",
+    "doi": "10.38124/ijisrt/26jun1744",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "The growing deployment of deep learning models in safety-critical domains has exposed the artificial intelligence landscape to a widening array of adversarial threats, where imperceptible input perturbations reliably induce severe misclassifications. This survey provides a comprehensive synthesis of adversarial attacks and defense mechanisms in modern AI security.",
+    "discoveredAt": "2026-07-08T15:15:01.900Z"
+  },
+  {
+    "id": "S0083",
+    "title": "Practical AI for Professionals",
+    "authors": [
+      "Jr. William A. Yarberry",
+      "Wesley Ladd"
+    ],
+    "publishedAt": "2026-07-06",
+    "url": "https://doi.org/10.1201/9781003642350",
+    "doi": "10.1201/9781003642350",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Practical AI for Professionals: Understanding, Using, and Surviving AI bridges the gap between high-level philosophy and technical implementation, delivering actionable AI knowledge for educated professionals without specialized training in computation, statistics, or modeling. This book focuses on what matters most: understanding how to use AI effectively in law, medicine, finance, engineering, and other domains without needing to master the technical foundations of AI systems.",
+    "discoveredAt": "2026-07-08T15:15:01.900Z"
+  },
+  {
+    "id": "S0084",
+    "title": "A Legal Framework for Artificial Intelligence-Assisted Halal Certification: Indonesia's Regulatory Sandbox",
+    "authors": [
+      "Deviana Yuanitasari",
+      "Madiha Dzakiyyah Chairunnisa",
+      "Yamudin Salaeh"
+    ],
+    "venue": "Jurnal Media Hukum",
+    "publishedAt": "2026-06-30",
+    "url": "https://doi.org/10.18196/jmh.v33i1.28358",
+    "doi": "10.18196/jmh.v33i1.28358",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.5,
+    "summary": "Halal certification in Indonesia, governed by Law No. 33 of 2014 on Halal Product Assurance (UUPJPH), is essential for consumer protection and the competitiveness of micro, small, and medium enterprises (MSMEs) in the global halal market.",
+    "discoveredAt": "2026-07-08T15:15:01.900Z"
+  },
+  {
+    "id": "S0085",
+    "title": "Challenges and strategies for harnessing large language models in plant protection",
+    "authors": [
+      "X Y Li",
+      "Wenjie Shangguan",
+      "Lidong Cao",
+      "Huizhu Yuan",
+      "Xiaojing Yan"
+    ],
+    "venue": "Frontiers in Plant Science",
+    "publishedAt": "2026-07-07",
+    "url": "https://doi.org/10.3389/fpls.2026.1801548",
+    "doi": "10.3389/fpls.2026.1801548",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Large language models (LLMs) are increasingly being explored as intelligent tools for plant protection, with potential applications in pest and disease monitoring, control decision-making, plant quarantine, pesticide development, and precision application. However, their deployment in plant protection remains constrained by limited contextual adaptation to local agroecological conditions, insufficient reliability of single generalist models across diverse tasks, and high computational and energy costs.",
+    "discoveredAt": "2026-07-08T15:15:01.900Z"
+  },
+  {
     "id": "S0077",
     "title": "The Impact of Artificial Intelligence on Trust and Uninterrupted Usage Intention in AI Financial Service: Evidence from Bangladeshi Consumers",
     "authors": [
