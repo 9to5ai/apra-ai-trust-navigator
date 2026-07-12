@@ -1,10 +1,11 @@
 {
-  "updatedAt": "2026-07-08T15:15:04.423Z",
+  "updatedAt": "2026-07-12T14:12:09.423Z",
   "clusters": [
     {
       "id": "evaluation",
       "label": "Evaluation and benchmarks",
       "sourceIds": [
+        "S0090",
         "S0075",
         "S0074",
         "S0071",
@@ -27,6 +28,8 @@
       "id": "monitoring",
       "label": "Monitoring and telemetry",
       "sourceIds": [
+        "S0090",
+        "S0092",
         "S0080",
         "S0081",
         "S0085",
@@ -47,6 +50,10 @@
       "id": "security",
       "label": "Security and agent risk",
       "sourceIds": [
+        "S0086",
+        "S0087",
+        "S0089",
+        "S0090",
         "S0079",
         "S0080",
         "S0081",
@@ -72,11 +79,7 @@
         "S0052",
         "S0044",
         "S0040",
-        "S0043",
-        "S0037",
-        "S0036",
-        "S0034",
-        "S0030"
+        "S0043"
       ],
       "hypothesisIds": [
         "Hfd72d66f"
@@ -86,6 +89,10 @@
       "id": "governance",
       "label": "Governance evidence",
       "sourceIds": [
+        "S0086",
+        "S0087",
+        "S0088",
+        "S0089",
         "S0079",
         "S0080",
         "S0084",
@@ -111,11 +118,7 @@
         "S0053",
         "S0039",
         "S0040",
-        "S0037",
-        "S0033",
-        "S0034",
-        "S0030",
-        "S0027"
+        "S0037"
       ],
       "hypothesisIds": [
         "H0001",

@@ -1,0 +1,232 @@
+{
+  "date": "2026-07-13",
+  "runStartedAt": "2026-07-12T14:12:06.795Z",
+  "runCompletedAt": "2026-07-12T14:12:09.421Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-07-08T15:15:04.420Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0086",
+      "title": "Global Policy Frameworks for Quantum Technologies, Cybersecurity, Climate Change, and Responsible AI Governance",
+      "authors": [
+        "Murali Krishna Pasupuleti"
+      ],
+      "publishedAt": "2026-06-30",
+      "url": "https://doi.org/10.62311/nesx/rb1j-978-81-688203-9-5",
+      "doi": "10.62311/nesx/rb1j-978-81-688203-9-5",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.6599999999999999,
+      "summary": "Abstract This book develops an integrated global policy framework for governing quantum technologies, cybersecurity, climate change and responsible artificial intelligence as interdependent domains of strategic risk, scientific opportunity and institutional transformation. It argues that modern governance cannot treat these domains as separate regulatory silos: quantum advances reshape cryptographic assurance and sensing capacity; cybersecurity determines the reliability of public infrastructures; climate change in",
+      "discoveredAt": "2026-07-12T14:12:06.795Z"
+    },
+    {
+      "id": "S0087",
+      "title": "ENTERPRISE MODEL FIREWALL (EMF): A COGNITIVE TRAFFIC CONTROL ARCHITECTURE FOR SECURE AND SCALABLE ENTERPRISE AI SYSTEMS",
+      "authors": [
+        "Srikanth Devarakonda"
+      ],
+      "venue": "International Journal of Generative Artificial Intelligence in Business",
+      "publishedAt": "2026-07-07",
+      "url": "https://doi.org/10.34218/ijgaib_02_02_001",
+      "doi": "10.34218/ijgaib_02_02_001",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5800000000000001,
+      "summary": "Purpose: This article introduces the Enterprise Model Firewall (EMF) as a novel architectural control layer designed to address the governance, security, and scalability challenges inherent in enterprise generative AI deployments.Problem: Current enterprise AI systems lack unified traffic control mechanisms, exposing organizations to prompt injection attacks, hallucination-driven misinformation, data leakage, and unpredictable operational costs.Method: Through systematic synthesis of over 300 scholarly papers on AI",
+      "discoveredAt": "2026-07-12T14:12:06.795Z"
+    },
+    {
+      "id": "S0088",
+      "title": "An Evidence-Based Framework for Patient-Facing Artificial Intelligence Integration in the Emergency Department",
+      "authors": [
+        "Tehreem Rehman",
+        "Philip Jarrett",
+        "Joshua Lesko",
+        "James Augustine",
+        "Bradley D. Shy",
+        "Rohit B. Sangal",
+        "Nicholas Genes",
+        "Donald U. Apakama",
+        "Ethan Abbott",
+        "Abhi Mehrotra",
+        "Richard A. Taylor"
+      ],
+      "venue": "Journal of the American College of Emergency Physicians Open",
+      "publishedAt": "2026-07-09",
+      "url": "https://doi.org/10.1016/j.acepjo.2026.100466",
+      "doi": "10.1016/j.acepjo.2026.100466",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "The emergency department is a high-need setting for patient-facing artificial intelligence (PF-AI) because it functions as both a health care safety net and, increasingly, a digital front door for unscheduled acute care. We define PF-AI as tools that interact directly with patients to collect information, deliver tailored communication, and support decision making under clinician governance.",
+      "discoveredAt": "2026-07-12T14:12:06.795Z"
+    },
+    {
+      "id": "S0089",
+      "title": "INTEGRATION OF INTERNAL AUDIT, ELECTRONIC AUDIT, AND AUDIT GOVERNANCE IN IMPROVING THE EFFECTIVENESS OF INTERNAL CONTROL AND REDUCING THE RISK OF FRAUD",
+      "authors": [
+        "Marsanda Ponelo",
+        "Mutiara Nandiva",
+        "Jasmine Nadia Podungge",
+        "Maimun Baode",
+        "Sahmin Noholo"
+      ],
+      "venue": "Multidisciplinary Indonesian Center Journal",
+      "publishedAt": "2026-07-08",
+      "url": "https://doi.org/10.62567/micjo.v3i3.2581",
+      "doi": "10.62567/micjo.v3i3.2581",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Digital transformation has increased the complexity of fraud risks within organizations, necessitating a more adaptive and integrated internal control system. This study aims to analyze the integration of internal audit, electronic audit, and audit governance in improving the effectiveness of internal control and mitigating fraud risks.",
+      "discoveredAt": "2026-07-12T14:12:06.795Z"
+    },
+    {
+      "id": "S0090",
+      "title": "A Drift-Aware Human-in-the-Loop Edge AI Agent for Wireless IoMT Sensor-Network Intrusion Detection Under Cross-Corpus Shift",
+      "authors": [
+        "Abdulaziz Alajaji"
+      ],
+      "venue": "Electronics",
+      "publishedAt": "2026-07-09",
+      "url": "https://doi.org/10.3390/electronics15143015",
+      "doi": "10.3390/electronics15143015",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Wireless sensor networks underpin the Internet of Medical Things (IoMT), where connected medical devices and wearable body-area sensors stream patient telemetry across hospital networks, and securing this traffic is safety-critical. Machine learning intrusion-detection systems for the IoMT are usually evaluated within a single public dataset, where they report near-perfect detection scores; whether that accuracy predicts performance in a different hospital has not been measured systematically.",
+      "discoveredAt": "2026-07-12T14:12:06.795Z"
+    },
+    {
+      "id": "S0091",
+      "title": "Development of a Holistic Assessment Framework for the Design of AI-Based Automation",
+      "authors": [
+        "Sybert Stroeve",
+        "Barry Kirwan",
+        "Mariken Everdij"
+      ],
+      "venue": "Safety",
+      "publishedAt": "2026-07-07",
+      "url": "https://doi.org/10.3390/safety12040091",
+      "doi": "10.3390/safety12040091",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "There is a need to ensure that the application of artificial intelligence (AI) in increasingly automated operations is safe, human-centric, and trustworthy, and respects ethical principles. To this end, this paper presents an innovative holistic assessment framework to support certification-aware design of AI-based sociotechnical systems with a range of levels of automation along multiple design stages from low to high technology and human readiness levels (TRLs/HRLs).",
+      "discoveredAt": "2026-07-12T14:12:06.795Z"
+    },
+    {
+      "id": "S0092",
+      "title": "Wearable and Low-Cost IoT Air Quality Sensing with AI and XAI: A Review of Computational Framework for Personalized Exposure Assessment",
+      "authors": [
+        "Syed Azeem Inam",
+        "Hassan Hashim",
+        "Syed Wajiha Naim"
+      ],
+      "venue": "VFAST Transactions on Software Engineering",
+      "publishedAt": "2026-07-09",
+      "url": "https://doi.org/10.21015/vtse.v14i3.2472",
+      "doi": "10.21015/vtse.v14i3.2472",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "Air pollution monitoring has undergone a significant transformation with the emergence of wearable sensing technologies, low-cost IoT monitoring networks, and AI–driven analytical frameworks. Conventional regulatory monitoring systems, although highly accurate, are spatially sparse and therefore insufficient for capturing the dynamic and heterogeneous nature of individual exposure across diverse microenvironments.",
+      "discoveredAt": "2026-07-12T14:12:06.795Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0086",
+      "claim": "Global Policy Frameworks for Quantum Technologies, Cybersecurity, Climate Change, and Responsible AI Governance adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0087",
+      "claim": "ENTERPRISE MODEL FIREWALL (EMF): A COGNITIVE TRAFFIC CONTROL ARCHITECTURE FOR SECURE AND SCALABLE ENTERPRISE AI SYSTEMS adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0088",
+      "claim": "An Evidence-Based Framework for Patient-Facing Artificial Intelligence Integration in the Emergency Department adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0089",
+      "claim": "INTEGRATION OF INTERNAL AUDIT, ELECTRONIC AUDIT, AND AUDIT GOVERNANCE IN IMPROVING THE EFFECTIVENESS OF INTERNAL CONTROL AND REDUCING THE RISK OF FRAUD adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0090",
+      "claim": "A Drift-Aware Human-in-the-Loop Edge AI Agent for Wireless IoMT Sensor-Network Intrusion Detection Under Cross-Corpus Shift adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0091",
+      "claim": "Development of a Holistic Assessment Framework for the Design of AI-Based Automation adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0092",
+      "claim": "Wearable and Low-Cost IoT Air Quality Sensing with AI and XAI: A Review of Computational Framework for Personalized Exposure Assessment adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 7 relevant artifacts clustered around governance, control, audit, framework. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-07-12T14:12:09.300Z",
+      "updatedAt": "2026-07-12T14:12:09.300Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-07-12T14:12:09.300Z",
+      "updatedAt": "2026-07-12T14:12:09.300Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}
