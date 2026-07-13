@@ -1,5 +1,24 @@
 [
   {
+    "id": "S0093",
+    "title": "Beyond Generative Intelligence: A Comprehensive Review of Emerging Artificial Intelligence Paradigms, Explainability Challenges, Ethical Risks, and Future Directions",
+    "authors": [
+      "Dr. Shankar Subramanian Iyer",
+      "Dr Brinitha Raji",
+      "Raman Subramanian",
+      "Rajesh Arora"
+    ],
+    "venue": "International Journal of Latest Technology in Engineering Management & Applied Science",
+    "publishedAt": "2026-07-11",
+    "url": "https://doi.org/10.51583/ijltemas.2026.150600099",
+    "doi": "10.51583/ijltemas.2026.150600099",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.6599999999999999,
+    "summary": "The artificial intelligence landscape has undergone a profound transformation from narrow, task-specific automation to sophisticated, multi-paradigm systems capable of autonomous reasoning, emotional understanding, and creative generation. This systematic literature review synthesizes 141 peer-reviewed studies published between 2018 and 2026 to map the evolution of AI paradigms beyond the dominant Generative AI breakthrough.",
+    "discoveredAt": "2026-07-13T15:15:00.822Z"
+  },
+  {
     "id": "S0086",
     "title": "Global Policy Frameworks for Quantum Technologies, Cybersecurity, Climate Change, and Responsible AI Governance",
     "authors": [
