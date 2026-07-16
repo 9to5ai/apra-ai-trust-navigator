@@ -1,5 +1,44 @@
 [
   {
+    "id": "S0094",
+    "title": "FHIRTrustBench: A Benchmark for Interoperability-Driven Clinical AI Readiness and Trustworthiness",
+    "authors": [
+      "Syed Ahmad Chan Bukhari",
+      "Neeam Shahriar Hayder",
+      "Iram Wajahat"
+    ],
+    "venue": "medRxiv",
+    "publishedAt": "2026-07-13",
+    "url": "https://doi.org/10.64898/2026.07.08.26357574",
+    "doi": "10.64898/2026.07.08.26357574",
+    "sourceType": "preprint",
+    "trustRating": 0.82,
+    "relevanceScore": 0.74,
+    "summary": "Existing evaluations of healthcare AI often treat interoperability as a technical infrastructure issue rather than a factor that directly influences the safety and reliability of clinical AI systems. Yet the quality of Fast Healthcare Interoperability Resources (FHIR) implementation affects whether AI models can operate accurately, fairly, securely, and effectively in real clinical settings.",
+    "discoveredAt": "2026-07-16T15:15:01.686Z"
+  },
+  {
+    "id": "S0095",
+    "title": "Embodied Intelligence Security with Vision-language Models: A Survey",
+    "authors": [
+      "Junxian Duan",
+      "Haisu Zhu",
+      "Canhui Liu",
+      "S Y Li",
+      "Xiangyun Tang",
+      "Yue Wang"
+    ],
+    "venue": "Machine Intelligence Research",
+    "publishedAt": "2026-07-13",
+    "url": "https://doi.org/10.1007/s11633-025-1626-x",
+    "doi": "10.1007/s11633-025-1626-x",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.4,
+    "summary": "Abstract Embodied intelligence (EI), integrating vision-language models (VLMs) with action-oriented capabilities, presents transformative potential for autonomous systems. However, deploying VLMs in safety-critical applications like self-driving cars and collaborative robots introduces significant challenges.",
+    "discoveredAt": "2026-07-16T15:15:01.686Z"
+  },
+  {
     "id": "S0093",
     "title": "Beyond Generative Intelligence: A Comprehensive Review of Emerging Artificial Intelligence Paradigms, Explainability Challenges, Ethical Risks, and Future Directions",
     "authors": [

@@ -1,0 +1,112 @@
+{
+  "date": "2026-07-17",
+  "runStartedAt": "2026-07-16T15:15:01.686Z",
+  "runCompletedAt": "2026-07-16T15:15:03.804Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-07-15T15:15:04.097Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0094",
+      "title": "FHIRTrustBench: A Benchmark for Interoperability-Driven Clinical AI Readiness and Trustworthiness",
+      "authors": [
+        "Syed Ahmad Chan Bukhari",
+        "Neeam Shahriar Hayder",
+        "Iram Wajahat"
+      ],
+      "venue": "medRxiv",
+      "publishedAt": "2026-07-13",
+      "url": "https://doi.org/10.64898/2026.07.08.26357574",
+      "doi": "10.64898/2026.07.08.26357574",
+      "sourceType": "preprint",
+      "trustRating": 0.82,
+      "relevanceScore": 0.74,
+      "summary": "Existing evaluations of healthcare AI often treat interoperability as a technical infrastructure issue rather than a factor that directly influences the safety and reliability of clinical AI systems. Yet the quality of Fast Healthcare Interoperability Resources (FHIR) implementation affects whether AI models can operate accurately, fairly, securely, and effectively in real clinical settings.",
+      "discoveredAt": "2026-07-16T15:15:01.686Z"
+    },
+    {
+      "id": "S0095",
+      "title": "Embodied Intelligence Security with Vision-language Models: A Survey",
+      "authors": [
+        "Junxian Duan",
+        "Haisu Zhu",
+        "Canhui Liu",
+        "S Y Li",
+        "Xiangyun Tang",
+        "Yue Wang"
+      ],
+      "venue": "Machine Intelligence Research",
+      "publishedAt": "2026-07-13",
+      "url": "https://doi.org/10.1007/s11633-025-1626-x",
+      "doi": "10.1007/s11633-025-1626-x",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.4,
+      "summary": "Abstract Embodied intelligence (EI), integrating vision-language models (VLMs) with action-oriented capabilities, presents transformative potential for autonomous systems. However, deploying VLMs in safety-critical applications like self-driving cars and collaborative robots introduces significant challenges.",
+      "discoveredAt": "2026-07-16T15:15:01.686Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0094",
+      "claim": "FHIRTrustBench: A Benchmark for Interoperability-Driven Clinical AI Readiness and Trustworthiness adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "This is preprint evidence and needs corroboration."
+    },
+    {
+      "sourceId": "S0095",
+      "claim": "Embodied Intelligence Security with Vision-language Models: A Survey adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 2 relevant artifacts clustered around clinical, models, healthcare, interoperability. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-07-16T15:15:03.740Z",
+      "updatedAt": "2026-07-16T15:15:03.740Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-07-16T15:15:03.740Z",
+      "updatedAt": "2026-07-16T15:15:03.740Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}
