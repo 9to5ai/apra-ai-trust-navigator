@@ -1,0 +1,163 @@
+{
+  "date": "2026-07-18",
+  "runStartedAt": "2026-07-17T15:15:04.125Z",
+  "runCompletedAt": "2026-07-17T15:15:06.600Z",
+  "startingHypothesis": {
+    "id": "H0001",
+    "statement": "Trust in AI systems is becoming an evidence problem: durable trust will depend less on stated intent and more on independently repeatable assurance signals across evaluation, monitoring, and operational control.",
+    "status": "strengthened",
+    "confidence": 0.72,
+    "priority": 0.86,
+    "createdAt": "2026-05-25T13:37:25.859Z",
+    "updatedAt": "2026-07-16T15:15:03.804Z",
+    "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+  },
+  "sourcesRead": [
+    {
+      "id": "S0096",
+      "title": "From the EU AI Act to Audit Practice: A Governance-to-Controls Framework for Quality Management and Evidence",
+      "authors": [
+        "János Kálmán"
+      ],
+      "venue": "Accounting and Auditing",
+      "publishedAt": "2026-07-15",
+      "url": "https://doi.org/10.3390/accountaudit2030012",
+      "doi": "10.3390/accountaudit2030012",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.74,
+      "summary": "Artificial intelligence (AI) tools—including audit data analytics, robotic process automation, machine-learning models, and generative AI—are changing how audit teams identify risks, select procedures, and evaluate evidence. At the same time, Regulation (EU) 2024/1689 (the EU AI Act) establishes a risk-based governance architecture built around risk management, data governance, technical documentation, logging, transparency, human oversight, robustness, cybersecurity, and post-market monitoring.",
+      "discoveredAt": "2026-07-17T15:15:04.125Z"
+    },
+    {
+      "id": "S0097",
+      "title": "From disinformation to Foreign Information Manipulation and Interference: policy and legal challenges for European security",
+      "authors": [
+        "Carlos Galán-Cordero",
+        "Álvaro Cremades-Guisado"
+      ],
+      "venue": "Frontiers in Political Science",
+      "publishedAt": "2026-07-15",
+      "url": "https://doi.org/10.3389/fpos.2026.1893048",
+      "doi": "10.3389/fpos.2026.1893048",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.5,
+      "summary": "Over the past decade, disinformation has ceased to be viewed solely as a problem of false information and has instead become a structural issue of democratic security. The emergence of the concept of Foreign Information Manipulation and Interference (FIMI) reflects this analytical shift: the focus is no longer solely on false or misleading content, but on coordinated, persistent, and strategically oriented operations aimed at manipulating the information environment, eroding institutional trust, and interfering in ",
+      "discoveredAt": "2026-07-17T15:15:04.125Z"
+    },
+    {
+      "id": "S0098",
+      "title": "Autonomous System Vulnerability Remediation: A Survey of Agentic AI, Reinforcement Learning, Benchmarks, and Operational Safety",
+      "authors": [
+        "Abanisenioluwa Orojo",
+        "Webster Elumelu",
+        "Emmanuelli El-Mahmoud",
+        "Erika Leal"
+      ],
+      "venue": "Research Square",
+      "publishedAt": "2026-07-14",
+      "url": "https://doi.org/10.21203/rs.3.rs-9932577/v1",
+      "doi": "10.21203/rs.3.rs-9932577/v1",
+      "sourceType": "preprint",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "discoveredAt": "2026-07-17T15:15:04.125Z"
+    },
+    {
+      "id": "S0099",
+      "title": "Self-evolving cyber defense: an analytical review of AI-driven autonomous and adversarial systems",
+      "authors": [
+        "Babatunde AbdulAzeez Alli",
+        "Taoheed Abiodun Yusuf",
+        "Jefferson Ederhion",
+        "Oluwaseyi Otunlape",
+        "Olumide Koyenikan",
+        "Taofeek Akinwumi Raheem",
+        "Ayomide Olugbade",
+        "Stephen Alaba John",
+        "Joye Ahmed Shonubi",
+        "Md. Saifur Rahman",
+        "Md. Abdullah Al Mahmud",
+        "Olaoluwa John Adeleke"
+      ],
+      "venue": "Journal of Computer Virology and Hacking Techniques",
+      "publishedAt": "2026-07-13",
+      "url": "https://doi.org/10.1007/s11416-026-00636-x",
+      "doi": "10.1007/s11416-026-00636-x",
+      "sourceType": "paper",
+      "trustRating": 0.82,
+      "relevanceScore": 0.42,
+      "summary": "Abstract The growing complexity, size, and dynamism of cyber threats have revealed inherent weaknesses of the traditional, static cybersecurity models. Attackers nowadays take advantage of artificial intelligence, automation, and adversarial learning methods to avoid detection, create new variants of attacks, and maintain long-term intrusions.",
+      "discoveredAt": "2026-07-17T15:15:04.125Z"
+    }
+  ],
+  "notes": [
+    {
+      "sourceId": "S0096",
+      "claim": "From the EU AI Act to Audit Practice: A Governance-to-Controls Framework for Quality Management and Evidence adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0097",
+      "claim": "From disinformation to Foreign Information Manipulation and Interference: policy and legal challenges for European security adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    },
+    {
+      "sourceId": "S0098",
+      "claim": "Autonomous System Vulnerability Remediation: A Survey of Agentic AI, Reinforcement Learning, Benchmarks, and Operational Safety adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "This is preprint evidence and needs corroboration."
+    },
+    {
+      "sourceId": "S0099",
+      "claim": "Self-evolving cyber defense: an analytical review of AI-driven autonomous and adversarial systems adds evidence on assurance measurement.",
+      "implication": "The trust question should be treated as a testable evidence pipeline, not a static policy claim.",
+      "limitation": "The metadata-only pass should be followed by closer reading before major confidence changes."
+    }
+  ],
+  "synthesis": "Tonight's open-source scan found 4 relevant artifacts clustered around information, audit, management, evidence. The working hypothesis remains viable, but the evidence base is still stronger on evaluation and tooling than on independent, repeatable assurance in deployed systems.",
+  "hypothesisUpdates": [
+    {
+      "hypothesisId": "H0001",
+      "previousConfidence": 0.72,
+      "nextConfidence": 0.72,
+      "status": "strengthened",
+      "rationale": "Multiple fresh sources point toward operational evidence, evaluation, and monitoring as core trust mechanisms."
+    }
+  ],
+  "newHypotheses": [
+    {
+      "id": "Hfba5ea0e",
+      "statement": "Independent AI assurance will converge around continuously refreshed evidence bundles rather than one-time model reports.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.62,
+      "createdAt": "2026-07-17T15:15:06.561Z",
+      "updatedAt": "2026-07-17T15:15:06.561Z",
+      "parentId": "H0001"
+    },
+    {
+      "id": "Hfd72d66f",
+      "statement": "Agentic AI trust failures will be easier to detect through workflow telemetry than through benchmark scores alone.",
+      "status": "new",
+      "confidence": 0.42,
+      "priority": 0.58,
+      "createdAt": "2026-07-17T15:15:06.561Z",
+      "updatedAt": "2026-07-17T15:15:06.561Z",
+      "parentId": "H0001"
+    }
+  ],
+  "nextSearchPlan": [
+    "continuous assurance evidence bundles AI systems",
+    "agent workflow telemetry trust monitoring evaluation",
+    "independent AI audit benchmark operational assurance"
+  ],
+  "unresolvedQuestions": [
+    "Which assurance signals remain predictive after deployment conditions drift?",
+    "What evidence should be independently reproducible versus vendor-attested?",
+    "How should agentic workflows expose trust-relevant telemetry without leaking sensitive data?"
+  ]
+}
