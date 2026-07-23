@@ -1,5 +1,57 @@
 [
   {
+    "id": "S0107",
+    "title": "Design and implementation of a scalable zero-trust AI security methodology for Criminal Justice Information Services (CJIS) incorporating dual-stream validation for adversarial defense, data protection, and compliance assurance",
+    "authors": [
+      "Deo Mugabe"
+    ],
+    "venue": "World Journal of Advanced Research and Reviews",
+    "publishedAt": "2026-07-21",
+    "url": "https://doi.org/10.30574/wjarr.2026.31.1.1879",
+    "doi": "10.30574/wjarr.2026.31.1.1879",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.74,
+    "summary": "The adoption of artificial intelligence (AI) and machine learning (ML) technologies in criminal justice information services (CJIS) has enabled unprecedented capabilities for law enforcement; however, these technologies can also expand the attack surface for highly sophisticated adversarial threats. Traditional perimeter-based information security models are not adequate to protect sensitive criminal justice information (CJI) against evasive attacks, data-poisoning, and model inversion.",
+    "discoveredAt": "2026-07-23T15:15:03.950Z"
+  },
+  {
+    "id": "S0108",
+    "title": "The AI Implementation Gap: Policy–Audit Misalignment in the UAE and Egypt",
+    "authors": [
+      "John Joshua C. Rañeses",
+      "Ain Bemisal Alavi",
+      "Rafia",
+      "Arshiya Subhani"
+    ],
+    "venue": "Journal of Business Insight and Innovation",
+    "publishedAt": "2026-07-18",
+    "url": "https://doi.org/10.63544/jbii.v5i7.100",
+    "doi": "10.63544/jbii.v5i7.100",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.74,
+    "summary": "Following the International Auditing and Assurance Standards Board’s (IAASB) findings, artificial intelligence (AI) developments over human governance in the February 2026 Technology Quality Management roundtables outcome statement, this study aims to disclose the disconnect between the policy and practice of external audit functions in AI adoption. The research employs a qualitative multi-method design that compares the narratives of Big Four organizations’ transparency reports and audit practitioners in the Unite",
+    "discoveredAt": "2026-07-23T15:15:03.950Z"
+  },
+  {
+    "id": "S0109",
+    "title": "Algorithmic fairness and bias mitigation in financial artificial intelligence: scoping review",
+    "authors": [
+      "Marcelo Wecchi",
+      "Lilian Berton"
+    ],
+    "venue": "AI and Ethics",
+    "publishedAt": "2026-07-20",
+    "url": "https://doi.org/10.1007/s43681-026-01238-5",
+    "doi": "10.1007/s43681-026-01238-5",
+    "sourceType": "paper",
+    "trustRating": 0.82,
+    "relevanceScore": 0.42,
+    "summary": "Abstract The growing adoption of artificial intelligence in the financial sector has intensified concerns regarding unfair discrimination across diverse systems. Under increasing regulatory and accountability pressures, ensuring fairness and transparency in AI-driven decision-making has become a critical challenge.",
+    "discoveredAt": "2026-07-23T15:15:03.950Z"
+  },
+  {
     "id": "S0103",
     "title": "AI and Cybersecurity Governance and Legal Compliance Challenges Affecting Digital Energy Infrastructure, Smart Grids, and Critical Utility Resilience Systems",
     "authors": [
